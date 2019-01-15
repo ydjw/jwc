@@ -4,6 +4,7 @@
   "homepage": "https://ydjw.github.io/jwc",
   "private": true,
   "dependencies": {
+    "antd-mobile": "^2.2.8",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"

@@ -8,6 +8,7 @@ import jiaoxueImg from "./img/ic_domain_black_48dp.png"
 import kaowuImg from "./img/ic_event_note_black_48dp.png"
 import zongheImg from "./img/ic_quick_contacts_dialer_black_48dp.png"
 import jiaoxuepingguImg from "./img/ic_local_library_black_48dp.png"
+import { Toast } from 'antd-mobile';
 
 class App extends Component {
     render() {
@@ -28,7 +29,7 @@ class App extends Component {
                 </div>
                 <div id="menu-item">
                     <HomeMenu menuTitle="综合查询"
-                              menuImg={zongheImg}></HomeMenu>
+                              menuImg={zongheImg} ></HomeMenu>
                     <HomeMenu menuTitle="教学评价"
                               menuImg={jiaoxuepingguImg}></HomeMenu>
                 </div>
