@@ -7,7 +7,7 @@ import GoodsItemDetail from './pages/community/GoodsItemDetails'
 class App extends Component {
     render() {
         return (
-            <Router>
+            <Router >
                 <div>
                     <Route exact path="/" component={Home}/>
                     <Route path="/personManage" component={PersonManage}/>

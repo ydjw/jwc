@@ -33,9 +33,6 @@ class GoodsItemDetail extends Component {
 
     render() {
         let {result, userEntity} = this.state
-        console.log(result, 1111111);
-
-        console.log(userEntity, 1111111);
         return (
             <div id='root-view'>
                 <div id='user-info'>
@@ -46,8 +43,8 @@ class GoodsItemDetail extends Component {
                     </div>
                 </div>
                 <p id='goods-title'>{result.goodsTitle}</p>
-                <div >
-                    <span id='goods-price'>{"￥"+result.goodsPrice}</span>
+                <div>
+                    <span id='goods-price'>{"￥" + result.goodsPrice}</span>
                     <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
                 </div>
                 {
