@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {HashRouter as Router, Route} from 'react-router-dom';
 import Home from './pages/home.jsx'
 import PersonManage from './pages/personManage.jsx'
-import GoodsItemDetail from './pages/community/goodsItemDetail'
+import GoodsItemDetail from './pages/community/GoodsItemDetails'
 
 class App extends Component {
     render() {

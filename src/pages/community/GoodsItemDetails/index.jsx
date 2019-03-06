@@ -1,0 +1,63 @@
+import React, {Component} from 'react';
+import bmob from "hydrogen-js-sdk";
+import './style.css'
+import util from "../../../util/util";
+
+
+class GoodsItemDetail extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            result: {},
+            userEntity: {}
+        }
+        bmob.initialize('94e8ff45d51ab0b2656846473fe7c5fb', '5970018c7fd8bef874258398a1f44e03')
+    }
+
+    componentDidMount() {
+        let objectId = util.getSearchByName('objectId')
+        const query = bmob.Query('GoodsEntity');
+        query.get(objectId).then(res => {
+            bmob.Query('_User').get(res.goodsOwner.objectId).then(result => {
+                this.setState({
+                        result: res,
+                        userEntity: result
+                    }
+                )
+            })
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
+    render() {
+        let {result, userEntity} = this.state
+        console.log(result, 1111111);
+
+        console.log(userEntity, 1111111);
+        return (
+            <div id='root-view'>
+                <div id='user-info'>
+                    <img id='user-head-img' src={userEntity.headImgUrl}/>
+                    <div id='goods-info'>
+                        <span id='user-name'>{userEntity.realName}</span>
+                        <span id='goods-time'>{result.createdAt}</span>
+                    </div>
+                </div>
+                <p id='goods-title'>{result.goodsTitle}</p>
+                <div >
+                    <span id='goods-price'>{"￥"+result.goodsPrice}</span>
+                    <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
+                </div>
+                {
+                    (result && result.goodsUrl || []).map((item, index) => {
+                        return <img id='goods-img' src={item} key={index}/>
+                    })
+                }
+            </div>
+        )
+    }
+}
+
+export default GoodsItemDetail
