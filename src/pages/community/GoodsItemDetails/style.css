@@ -50,3 +50,65 @@
     color: red;
     margin: 10px;
 }
+
+#bottom {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #99999999;
+    position: fixed;
+    bottom: 0;
+}
+
+#app_logo {
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#download-now {
+    background-color: #009688;
+    color: #fff;
+    align-self: center;
+    text-align: center;
+    font-size: 0.6rem;
+    width: fit-content;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+#herf-app {
+    text-decoration: none;
+    color: #fff;
+}
+
+#bottom-app-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#app-info {
+    justify-content: center;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#app-name {
+    color: #f6f6f6;
+    font-size: 1.0rem;
+}
+
+#app-desc {
+    margin-top: 2px;
+    color: #f6f6f6;
+    font-size: 0.5rem;
+}

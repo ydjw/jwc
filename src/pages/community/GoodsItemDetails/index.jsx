@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import bmob from "hydrogen-js-sdk";
 import './style.css'
 import util from "../../../util/util";
+import app_logo from "./app_logo.png"
 
 
 class GoodsItemDetail extends Component {
@@ -31,9 +32,11 @@ class GoodsItemDetail extends Component {
         })
     }
 
+
     render() {
         let {result, userEntity} = this.state
         return (
+
             <div id='root-view'>
                 <div id='user-info'>
                     <img id='user-head-img' src={userEntity.headImgUrl}/>
@@ -52,7 +55,20 @@ class GoodsItemDetail extends Component {
                         return <img id='goods-img' src={item} key={index}/>
                     })
                 }
+
+                <div id='bottom'>
+                    <div id="bottom-app-info">
+                        <img id='app_logo' src={app_logo}/>
+                        <div id='app-info'>
+                            <span id='app-name'>掌上教务</span>
+                            <span id='app-desc'>最懂你的教务社交APP</span>
+                        </div>
+                    </div>
+                    <span id='download-now'><a id='herf-app' href='app://ydjw/qyPicture'>立即下载</a></span>
+                </div>
             </div>
+
+
         )
     }
 }
