@@ -30,6 +30,8 @@ class GoodsItemDetail extends Component {
         }).catch(err => {
             console.log(err);
         })
+
+        util.getSearchByName()
     }
 
 
@@ -64,7 +66,7 @@ class GoodsItemDetail extends Component {
                             <span id='app-desc'>最懂你的教务社交APP</span>
                         </div>
                     </div>
-                    <span id='download-now'><a id='herf-app' href='app://ydjw/qyPicture'>立即下载</a></span>
+                    <span id='download-now'><a id='herf-app' href='app://ydjw/social?page=flea_market'>去看看</a></span>
                 </div>
             </div>
 
