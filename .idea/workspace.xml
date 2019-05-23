@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="抽取Bmob初始化为全局方法">
-      <change afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/community/dynamic/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/style.css" afterDir="false" />
+    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="定义失物招领、动态路由，搭建页面框架">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
     </list>
     <ignored path="zsjw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -64,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="-352">
               <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -347,7 +344,7 @@
       <workItem from="1556240935140" duration="3846000" />
       <workItem from="1556258344017" duration="609000" />
       <workItem from="1558575471698" duration="2334000" />
-      <workItem from="1558599943771" duration="8811000" />
+      <workItem from="1558599943771" duration="9111000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -454,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558608679800</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="定义失物招领、动态路由，搭建页面框架">
+      <created>1558609559167</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558609559167</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61542000" />
+    <option name="totallyTimeSpent" value="61842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -574,7 +578,8 @@
     <MESSAGE value="修改商品详情页底部运营条" />
     <MESSAGE value="添加一闪图片分享功能" />
     <MESSAGE value="抽取Bmob初始化为全局方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽取Bmob初始化为全局方法" />
+    <MESSAGE value="定义失物招领、动态路由，搭建页面框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义失物招领、动态路由，搭建页面框架" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -765,16 +770,6 @@
     <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -798,9 +793,19 @@
     <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -808,7 +813,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

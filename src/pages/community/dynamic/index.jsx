@@ -13,7 +13,7 @@ export default class Dynamic extends Component {
     render() {
         return (
             <div>
-
+               动态详情页
             </div>
         )
     }

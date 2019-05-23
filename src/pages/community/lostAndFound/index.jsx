@@ -12,7 +12,7 @@ class LostAndFound extends Component {
     render() {
         return (
             <div>
-
+                失物招领详情页
             </div>
         );
     }
