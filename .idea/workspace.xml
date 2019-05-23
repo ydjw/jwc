@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="添加一闪图片分享功能">
-      <change afterPath="$PROJECT_DIR$/src/util/initBmob.js" afterDir="false" />
+    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="抽取Bmob初始化为全局方法">
+      <change afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/community/dynamic/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/qypicture/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/qypicture/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personManage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/personManage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/util.js" afterDir="false" />
     </list>
     <ignored path="zsjw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="573">
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -39,23 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="448">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -64,48 +50,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
+        <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/util/initBmob.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="480">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -161,13 +123,16 @@
         <option value="$PROJECT_DIR$/config-overrides.js" />
         <option value="$PROJECT_DIR$/src/pages/community/qypicture/style.less" />
         <option value="$PROJECT_DIR$/src/pages/community/qypicture/style.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/util/util.js" />
         <option value="$PROJECT_DIR$/src/pages/personManage.jsx" />
         <option value="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/community/qypicture/index.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/util/initBmob.js" />
+        <option value="$PROJECT_DIR$/src/pages/community/dynamic/style.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" />
       </list>
     </option>
   </component>
@@ -215,7 +180,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="GoodsItemDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="lostAndFound" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -257,14 +238,15 @@
     <property name="ts.external.directory.path" value="E:\Program Files\WebStorm 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\web\zsjw-react\src\components\less" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\zsjw-react\src\pages\community\lostAndFound" />
       <recent name="E:\web\zsjw-react\src\pages\community\GoodsItemDetails" />
       <recent name="E:\web\zsjw-react\src\img" />
       <recent name="E:\web\zsjw-react\src\pages" />
       <recent name="E:\web\zsjw-react\src\pages\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\zsjw-react\src\components\less" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +347,7 @@
       <workItem from="1556240935140" duration="3846000" />
       <workItem from="1556258344017" duration="609000" />
       <workItem from="1558575471698" duration="2334000" />
-      <workItem from="1558599943771" duration="7965000" />
+      <workItem from="1558599943771" duration="8811000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -465,17 +447,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554280088734</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="抽取Bmob初始化为全局方法">
+      <created>1558608679799</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558608679800</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60696000" />
+    <option name="totallyTimeSpent" value="61542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.16965227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.19863014" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5074257" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -584,7 +573,8 @@
     <MESSAGE value="修改项目title" />
     <MESSAGE value="修改商品详情页底部运营条" />
     <MESSAGE value="添加一闪图片分享功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一闪图片分享功能" />
+    <MESSAGE value="抽取Bmob初始化为全局方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽取Bmob初始化为全局方法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -707,13 +697,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/utils.js" />
     <entry file="file://$PROJECT_DIR$/config-overrides.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -721,57 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/app_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,8 +730,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/initBmob.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="64">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/app_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
