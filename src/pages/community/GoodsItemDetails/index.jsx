@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import bmob from "hydrogen-js-sdk";
 import './style.css'
-import util from "../../../util/util";
 import app_logo from "./app_logo.png"
 
 
@@ -13,14 +11,13 @@ class GoodsItemDetail extends Component {
             result: {},
             userEntity: {}
         }
-        bmob.initialize('94e8ff45d51ab0b2656846473fe7c5fb', '5970018c7fd8bef874258398a1f44e03')
     }
 
     componentDidMount() {
-        let objectId = util.getSearchByName('objectId')
-        const query = bmob.Query('GoodsEntity');
+        let objectId = window.util.getSearchByName('objectId')
+        const query = window.bmob.Query('GoodsEntity');
         query.get(objectId).then(res => {
-            bmob.Query('_User').get(res.goodsOwner.objectId).then(result => {
+            window.bmob.Query('_User').get(res.goodsOwner.objectId).then(result => {
                 this.setState({
                         result: res,
                         userEntity: result
@@ -31,7 +28,6 @@ class GoodsItemDetail extends Component {
             console.log(err);
         })
 
-        util.getSearchByName()
     }
 
 

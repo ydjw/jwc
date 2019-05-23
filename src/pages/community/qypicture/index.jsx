@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
 import './style.css'
-import bmob from "hydrogen-js-sdk";
-import util from "../../../util/util";
 import app_logo from "../GoodsItemDetails/app_logo.png";
 
 
@@ -12,7 +10,6 @@ export default class QyPicture extends Component {
             result: {},
             userEntity: {}
         }
-        bmob.initialize('94e8ff45d51ab0b2656846473fe7c5fb', '5970018c7fd8bef874258398a1f44e03')
     }
 
     componentDidMount() {
@@ -20,10 +17,10 @@ export default class QyPicture extends Component {
     }
 
     initData = async () => {
-        let objectId = util.getSearchByName('objectId')
-        let result = await bmob.Query('QyPictureEntity').get(objectId);
+        let objectId =window.util.getSearchByName('objectId')
+        let result = await window.bmob.Query('QyPictureEntity').get(objectId);
         if (result != null) {
-            let userEntity = await bmob.Query('_User').get(result.userEntity.objectId)
+            let userEntity = await window.bmob.Query('_User').get(result.userEntity.objectId)
             this.setState({
                 result,
                 userEntity

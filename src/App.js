@@ -5,6 +5,7 @@ import PersonManage from './pages/personManage.jsx'
 import GoodsItemDetail from './pages/community/GoodsItemDetails'
 import QyPicture from './pages/community/qypicture'
 
+
 class App extends Component {
     render() {
         return (

@@ -1,4 +1,5 @@
 
+
 /**
  * 解析window.location.serch
  * @name 地址栏参数
@@ -10,11 +11,13 @@ const getSearchByName = function (name) {
     return null;
 }
 
-const util = {
-    getSearchByName
+
+
+const utils = {
+    getSearchByName,
 }
 
-export default util
+// export default util
 //配全局没配成，暂时导出吧
 // window.getSeachByName = getSearchByName
-// window.util =util
+window.util =utils
