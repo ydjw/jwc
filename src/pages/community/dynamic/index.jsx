@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './style.css'
+import './style.less'
 
 export default class Dynamic extends Component {
 
@@ -13,7 +13,10 @@ export default class Dynamic extends Component {
     render() {
         return (
             <div>
-               动态详情页
+                <div id='dynamic-card'>
+                    <span id='new-dynamic-info'>一个新的动态来自▶</span>
+                    <span id="dynamic-author">哈哈</span>
+                </div>
             </div>
         )
     }
