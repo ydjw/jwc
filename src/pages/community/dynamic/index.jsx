@@ -13,9 +13,14 @@ export default class Dynamic extends Component {
             dynamicEntity: {},
             dynamicAuthor: {},
             commentEntity: [],
+            showType: 1 //1 显示评论列表 2，显示发布评论界面
         }
+    }
 
-
+    changeShowType() {
+        this.setState({
+            showType: !this.state.showType
+        })
     }
 
     componentDidMount() {
@@ -43,8 +48,7 @@ export default class Dynamic extends Component {
     }
 
     render() {
-        let {dynamicEntity, dynamicAuthor, commentEntity} = this.state
-        console.log(commentEntity, 111)
+        let {dynamicEntity, dynamicAuthor, commentEntity, showType} = this.state
         return (
             <div id='dynamic-root'>
                 <div id='dynamic-card'>
@@ -66,22 +70,30 @@ export default class Dynamic extends Component {
                 </div>
 
                 {
-
-                    (commentEntity || []).map((item, index) => {
-                        return (
-                            <div id='comment-item'>
-                                <div>
-                                    <img id='commenter-header' src={commentEntity[index].myuser.headImgUrl}/>
-                                    <span id='commenter-name'>{commentEntity[index].myuser.username}</span>
-                                    <span id='commenter-time'>{commentEntity[index].createdAt}</span>
+                    showType == 1 ?
+                        (commentEntity || []).map((item, index) => {
+                            return (
+                                <div id='comment-item'>
+                                    <div>
+                                        <img id='commenter-header' src={commentEntity[index].myuser.headImgUrl}/>
+                                        <span id='commenter-name'>{commentEntity[index].myuser.username}</span>
+                                        <span id='commenter-time'>{commentEntity[index].createdAt}</span>
+                                    </div>
+                                    <span id='comment-content'>{commentEntity[index].content}</span>
                                 </div>
-                                <span id='comment-content'>{commentEntity[index].content}</span>
+                            )
+                        })
+                        :
+                        <div id='root'>
+                            <input id='comment-input'/>
+                            <div id='release-comment'>
+                                <span>发布评论</span>
                             </div>
-                        )
-                    })
+                        </div>
+
                 }
 
-                <div id='round-btn'>
+                <div id='round-btn' onClick={this.changeShowType.bind(this)}>
                     <img id='new-pen' src={heartSharePen}/>
                 </div>
 
