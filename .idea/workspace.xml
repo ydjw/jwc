@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="动态详情页，评论列表完成">
+    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="评价输入框、评论列表界面切换UI绘制完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" afterDir="false" />
     </list>
     <ignored path="zsjw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,17 +20,26 @@
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5711275">
+    <splitter split-orientation="horizontal" split-proportion="0.64800996">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+                <state relative-caret-position="517">
+                  <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="8" column="16" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -44,7 +52,7 @@
             <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="389">
-                  <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+                  <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -72,6 +80,7 @@
       <find>module:</find>
       <find>webpack.config.pro.</find>
       <find>const cssRegex = /\.css$/;</find>
+      <find>antd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,18 +152,7 @@
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -176,23 +174,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsItemDetails" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +304,7 @@
       <workItem from="1556258344017" duration="609000" />
       <workItem from="1558575471698" duration="2334000" />
       <workItem from="1558599943771" duration="9668000" />
-      <workItem from="1558663737466" duration="15005000" />
+      <workItem from="1558663737466" duration="17598000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -458,17 +439,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558680999355</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="评价输入框、评论列表界面切换UI绘制完成">
+      <created>1558683410053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558683410053</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77404000" />
+    <option name="totallyTimeSpent" value="79997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.15279241" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.15279241" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5074257" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -481,7 +468,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.34273317" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47939262" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29175705" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -582,7 +569,8 @@
     <MESSAGE value="发布路由" />
     <MESSAGE value="添加less支持" />
     <MESSAGE value="动态详情页，评论列表完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态详情页，评论列表完成" />
+    <MESSAGE value="评价输入框、评论列表界面切换UI绘制完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="评价输入框、评论列表界面切换UI绘制完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -699,13 +687,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/utils.js" />
     <entry file="file://$PROJECT_DIR$/config-overrides.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -834,14 +815,21 @@
     <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="517">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

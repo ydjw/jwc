@@ -23,6 +23,18 @@ export default class Dynamic extends Component {
         })
     }
 
+    /**
+     * 发布评论
+     * @returns {Promise<void>}
+     */
+    releaseNewComment = async () => {
+        let currentUserId = window.util.getSearchByName('currentUserId')
+
+        this.setState({
+            showType: 1
+        })
+    }
+
     componentDidMount() {
         let objectId = window.util.getSearchByName('objectId')
         window.bmob.Query('HeartShare').get(objectId)
@@ -86,16 +98,22 @@ export default class Dynamic extends Component {
                         :
                         <div id='root'>
                             <input id='comment-input'/>
-                            <div id='release-comment'>
+                            <div id='release-comment' onClick={this.releaseNewComment}>
                                 <span>发布评论</span>
                             </div>
                         </div>
 
                 }
 
-                <div id='round-btn' onClick={this.changeShowType.bind(this)}>
-                    <img id='new-pen' src={heartSharePen}/>
-                </div>
+                {
+                    showType == 1 ?
+                        <div id='round-btn' onClick={this.changeShowType.bind(this)}>
+                            <img id='new-pen' src={heartSharePen}/>
+                        </div>
+                        :
+                        <div></div>
+                }
+
 
             </div>
         )
