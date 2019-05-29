@@ -14,7 +14,9 @@ class GoodsItemDetail extends Component {
         }
     }
 
+
     componentDidMount() {
+        document.title = '商品详情'
         let objectId = window.util.getSearchByName('objectId')
         const query = window.bmob.Query('GoodsEntity');
         query.get(objectId).then(res => {
