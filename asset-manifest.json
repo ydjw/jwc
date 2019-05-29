@@ -1,7 +1,7 @@
 {
   "main.css": "/jwc/static/css/main.49b50840.chunk.css",
-  "main.js": "/jwc/static/js/main.ea8bcb0d.chunk.js",
-  "main.js.map": "/jwc/static/js/main.ea8bcb0d.chunk.js.map",
+  "main.js": "/jwc/static/js/main.3291abe1.chunk.js",
+  "main.js.map": "/jwc/static/js/main.3291abe1.chunk.js.map",
   "static/js/1.902fcae6.chunk.js": "/jwc/static/js/1.902fcae6.chunk.js",
   "static/js/1.902fcae6.chunk.js.map": "/jwc/static/js/1.902fcae6.chunk.js.map",
   "runtime~main.js": "/jwc/static/js/runtime~main.cfcb0562.js",
@@ -11,6 +11,6 @@
   "static/media/heart_share_pen.png": "/jwc/static/media/heart_share_pen.4b17cb5c.png",
   "static/media/ic_goods_sold_out.png": "/jwc/static/media/ic_goods_sold_out.5c18bea6.png",
   "index.html": "/jwc/index.html",
-  "precache-manifest.9617db96f21596bef92bdedb61887baa.js": "/jwc/precache-manifest.9617db96f21596bef92bdedb61887baa.js",
+  "precache-manifest.ae8568cab8a6594978b87b0dcba80462.js": "/jwc/precache-manifest.ae8568cab8a6594978b87b0dcba80462.js",
   "service-worker.js": "/jwc/service-worker.js"
 }
