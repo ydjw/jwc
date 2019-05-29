@@ -1,7 +1,7 @@
 {
   "main.css": "/jwc/static/css/main.474b8919.chunk.css",
-  "main.js": "/jwc/static/js/main.a6c043e9.chunk.js",
-  "main.js.map": "/jwc/static/js/main.a6c043e9.chunk.js.map",
+  "main.js": "/jwc/static/js/main.ef9be096.chunk.js",
+  "main.js.map": "/jwc/static/js/main.ef9be096.chunk.js.map",
   "static/js/1.902fcae6.chunk.js": "/jwc/static/js/1.902fcae6.chunk.js",
   "static/js/1.902fcae6.chunk.js.map": "/jwc/static/js/1.902fcae6.chunk.js.map",
   "runtime~main.js": "/jwc/static/js/runtime~main.cfcb0562.js",
@@ -11,6 +11,6 @@
   "static/media/heart_share_pen.png": "/jwc/static/media/heart_share_pen.4b17cb5c.png",
   "static/media/ic_goods_sold_out.png": "/jwc/static/media/ic_goods_sold_out.5c18bea6.png",
   "index.html": "/jwc/index.html",
-  "precache-manifest.185e8d9b47daf51a3abc9014347a076b.js": "/jwc/precache-manifest.185e8d9b47daf51a3abc9014347a076b.js",
+  "precache-manifest.76e7b9a72cba19c0fab4a32a1773cf79.js": "/jwc/precache-manifest.76e7b9a72cba19c0fab4a32a1773cf79.js",
   "service-worker.js": "/jwc/service-worker.js"
 }
