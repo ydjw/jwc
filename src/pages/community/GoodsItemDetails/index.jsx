@@ -31,6 +31,16 @@ class GoodsItemDetail extends Component {
 
     }
 
+    scanUserInfo(objectId) {
+        if (window.zhuandian) {
+            window.zhuandian.scanUserInfo(objectId)
+        }
+    }
+
+    openChatPage(objectId) {
+        if (window.zhuandian)
+            window.zhuandian.openChatPage(objectId)
+    }
 
     render() {
         let {result, userEntity} = this.state
@@ -38,7 +48,8 @@ class GoodsItemDetail extends Component {
 
             <div id='root-view'>
                 <div id='user-info'>
-                    <img id='user-head-img' src={userEntity.headImgUrl}/>
+                    <img id='user-head-img' onClick={() => this.scanUserInfo(userEntity.objectId)}
+                         src={userEntity.headImgUrl}/>
                     <div id='goods-info'>
                         <span id='user-name'>{userEntity.realName}</span>
                         <span id='goods-time'>{result.createdAt}</span>
@@ -77,10 +88,10 @@ class GoodsItemDetail extends Component {
                 {/*<span id='download-now'><a id='herf-app' href='app://ydjw/social?page=flea_market'>去看看</a></span>*/}
                 {/*</div>*/}
                 <div id='bottom-btn'>
-                    <span id='scan-user-info'>
+                    <span id='scan-user-info' onClick={() => this.scanUserInfo(userEntity.objectId)}>
                         看TA资料
                     </span>
-                    <span id='chat-to-user'>
+                    <span id='chat-to-user' onClick={() => this.openChatPage(userEntity.objectId)}>
                         问问TA
                     </span>
                 </div>
