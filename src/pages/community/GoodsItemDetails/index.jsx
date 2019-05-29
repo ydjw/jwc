@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './style.css'
 import app_logo from "./app_logo.png"
+import ic_goods_sold_out from './ic_goods_sold_out.png'
 
 
 class GoodsItemDetail extends Component {
@@ -43,11 +44,21 @@ class GoodsItemDetail extends Component {
                         <span id='goods-time'>{result.createdAt}</span>
                     </div>
                 </div>
-                <p id='goods-title'>{result.goodsTitle}</p>
+                <div id='goods-desc'>
+                    <div>
+                        <p id='goods-title'>{result.goodsTitle}</p>
 
-                <div>
-                    <span id='goods-price'>{"￥" + result.goodsPrice}</span>
-                    <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
+                        <div>
+                            <span id='goods-price'>{"￥" + result.goodsPrice}</span>
+                            <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
+                        </div>
+                    </div>
+                    {
+                        result.tradeState == 3
+                            ? <img id='goods-sold-out' src={ic_goods_sold_out}/>
+                            : <div></div>
+                    }
+
                 </div>
                 {
                     (result && result.goodsUrl || []).map((item, index) => {
@@ -55,15 +66,23 @@ class GoodsItemDetail extends Component {
                     })
                 }
 
-                <div id='bottom'>
-                    <div id="bottom-app-info">
-                        <img id='app_logo' src={app_logo}/>
-                        <div id='app-info'>
-                            <span id='app-name'>掌上教务</span>
-                            <span id='app-desc'>最懂你的教务社交APP</span>
-                        </div>
-                    </div>
-                    <span id='download-now'><a id='herf-app' href='app://ydjw/social?page=flea_market'>去看看</a></span>
+                {/*<div id='bottom'>*/}
+                {/*<div id="bottom-app-info">*/}
+                {/*<img id='app_logo' src={app_logo}/>*/}
+                {/*<div id='app-info'>*/}
+                {/*<span id='app-name'>掌上教务</span>*/}
+                {/*<span id='app-desc'>最懂你的教务社交APP</span>*/}
+                {/*</div>*/}
+                {/*</div>*/}
+                {/*<span id='download-now'><a id='herf-app' href='app://ydjw/social?page=flea_market'>去看看</a></span>*/}
+                {/*</div>*/}
+                <div id='bottom-btn'>
+                    <span id='scan-user-info'>
+                        看TA资料
+                    </span>
+                    <span id='chat-to-user'>
+                        问问TA
+                    </span>
                 </div>
             </div>
 

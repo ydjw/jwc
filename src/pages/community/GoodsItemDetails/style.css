@@ -40,6 +40,11 @@
     margin-left: 5px;
 }
 
+#goods-desc {
+    display: flex;
+    flex-direction: row;
+}
+
 #goods-title {
     margin: 15px;
     font-size: 1.1rem;
@@ -49,6 +54,14 @@
 #goods-price {
     color: red;
     margin: 10px;
+}
+
+#goods-sold-out {
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    right: 10px;
+
 }
 
 #bottom {
@@ -111,4 +124,32 @@
     margin-top: 2px;
     color: #f6f6f6;
     font-size: 0.5rem;
+}
+
+#bottom-btn {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+
+#scan-user-info {
+    width: 60%;
+    height: 50px;
+    background-color: #4d4d4d;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#chat-to-user {
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #009688;
 }
