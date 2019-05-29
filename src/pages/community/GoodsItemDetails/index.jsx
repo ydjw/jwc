@@ -44,6 +44,11 @@ class GoodsItemDetail extends Component {
             window.zhuandian.openChatPage(objectId)
     }
 
+    showPictureDetail(url) {
+        if (window.zhuandian)
+            window.zhuandian.showPictureDetail(url)
+    }
+
     render() {
         let {result, userEntity} = this.state
         return (
@@ -75,7 +80,7 @@ class GoodsItemDetail extends Component {
                 </div>
                 {
                     (result && result.goodsUrl || []).map((item, index) => {
-                        return <img id='goods-img' src={item} key={index}/>
+                        return <img id='goods-img' onClick={() => this.showPictureDetail(item)} src={item} key={index}/>
                     })
                 }
 
