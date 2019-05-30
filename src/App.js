@@ -6,6 +6,7 @@ import GoodsItemDetail from './pages/community/GoodsItemDetails'
 import QyPicture from './pages/community/qypicture'
 import Dynamic from './pages/community/dynamic'
 import LostAndFound from './pages/community/lostAndFound'
+import LoginPage from './pages/education/login'
 
 
 class App extends Component {
@@ -13,12 +14,14 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/" component={LoginPage}/>
                     <Route path="/personManage" component={PersonManage}/>
                     <Route path="/community/goodsItemDetail" component={GoodsItemDetail}/>
                     <Route path="/community/qyPicture" component={QyPicture}/>
                     <Route path="/community/lostAndFound" component={LostAndFound}/>
                     <Route path="/community/dynamic" component={Dynamic}/>
+                    <Route path="/education/login" component={LoginPage}/>
+                    <Route path="/home" component={Home}/>
                 </div>
             </Router>
         );

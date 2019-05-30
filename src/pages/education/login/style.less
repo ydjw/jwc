@@ -1,0 +1,105 @@
+#login-root {
+  flex-direction: column;
+  display: flex;
+
+  #top-view {
+    width: 100%;
+    flex: 4.5;
+    background-color: #009688;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    #app-title {
+      margin-top: 30px;
+      color: white;
+      font-size: 1.6rem;
+      text-decoration: none;
+      border-bottom: 2px solid red;
+
+    }
+
+    #app-info {
+      margin-top: 40px;
+      color: white;
+      font-size: 0.8rem;
+    }
+  }
+
+  #bottom-view {
+    width: 100%;
+    flex: 5.5;
+    background-color: #f6f6f6;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    #input-username {
+      margin-top: 30px;
+      width: 85%;
+      height: 30px;
+      background-color: #f6f6f6;
+      border: 0px;
+      outline: none;
+      border-bottom: 2px solid red;
+    }
+
+    #input-password {
+      margin-top: 20px;
+      width: 85%;
+      height: 30px;
+      background-color: #f6f6f6;
+      border: 0px;
+      outline: none;
+      color: #009688;
+      border-bottom: 2px solid red;
+    }
+
+
+    #login-container {
+      width: 85%;
+      margin-top: 10px;
+      display: flex;
+      height: 100px;
+      flex-direction: column;
+      position: relative;
+
+      #btn-login {
+        margin-top: 20px;
+        height: 45px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        line-height: 45px;
+        font-size: 1.0rem;
+        background-color: #009688;
+      }
+
+      #forget-password {
+        position: absolute;
+        bottom: 10px;
+        margin-top: 10px;
+        right: 0px;
+        color: #009688;
+        text-align: center;
+        font-size: 0.7rem;
+      }
+    }
+
+
+    #team-info {
+      position: absolute;
+      bottom: 5px;
+      align-self: center;
+      font-size: 0.6rem;
+      color: #7f7f7f;
+    }
+  }
+}
+
+input::-webkit-input-placeholder {
+  color: #009688;
+  font-size: 13px;
+}
