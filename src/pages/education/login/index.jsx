@@ -9,6 +9,10 @@ export default class LoginPage extends Component {
 
     componentDidMount() {
         document.getElementById('login-root').style.height = window.screen.height + 'px'
+        window.onresize = function () {
+            document.getElementById('login-root').style.height = window.screen.height + 'px'
+        }
+
     }
 
 
