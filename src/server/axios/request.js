@@ -2,8 +2,11 @@ import axios from './AxiosInterceptors';
 
 function get(url) {
 
-    return new Promise((resolve,reject)=>{
-        axios.get(url).then((res)=>{
+    return new Promise((resolve, reject) => {
+        axios.get(url, {
+                headers: {'token': window.util.getStorage('token')}
+            }
+        ).then((res) => {
             resolve(res)
         })
     })

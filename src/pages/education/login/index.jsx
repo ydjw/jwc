@@ -26,8 +26,10 @@ export default class LoginPage extends Component {
            let res=await EducationApi.login(`/app.do?method=authUser&xh=${username}&pwd=${password}`)
            if (res.data.success){
                Toast.hide()
+               window.util.setStorage('token',res.data.token)
                Toast.info("欢迎你，"+res.data.user.username,3)
                this.props.history.push('/home');
+
            }else {
                Toast.info("登陆信息有误...",1)
            }
