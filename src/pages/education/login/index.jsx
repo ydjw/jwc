@@ -23,16 +23,21 @@ export default class LoginPage extends Component {
         var password = document.getElementById('input-password').value;
         if (password.length > 6 && username.length > 8) {
             Toast.loading('登陆中...', 0);
-           let res=await EducationApi.login(`/app.do?method=authUser&xh=${username}&pwd=${password}`)
-           if (res.data.success){
-               Toast.hide()
-               window.util.setStorage('token',res.data.token)
-               Toast.info("欢迎你，"+res.data.user.username,3)
-               this.props.history.push('/home');
+            let data = {
+                'method': 'authUser',
+                'xh': username,
+                'pwd': password
+            }
+            let res = await EducationApi.commonGet(data)
+            if (res.data.success) {
+                Toast.hide()
+                window.util.setStorage('token', res.data.token)
+                Toast.info("欢迎你，" + res.data.user.username, 3)
+                this.props.history.push('/home');
 
-           }else {
-               Toast.info("登陆信息有误...",1)
-           }
+            } else {
+                Toast.info("登陆信息有误...", 1)
+            }
         } else {
             Toast.info('请确保账号密码正确...', 2);
         }

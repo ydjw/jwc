@@ -3,10 +3,10 @@ import {get} from '../server/axios/request'
 
 class EducationApi {
     /**
-     *账号登录
+     *项目通用get请求
      */
-    login(url) {
-         return get(url);
+    commonGet(params) {
+         return get('/app.do',params);
     }
 
 

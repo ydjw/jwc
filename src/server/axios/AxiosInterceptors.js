@@ -10,9 +10,9 @@ axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.interceptors.request.use(function (config) {
     //在发送请求之前做某事
     // console.log(config);
-    if (window.util.getStorage('token')) {
-        config.url += '&token=' + window.util.getStorage('token');
-    }
+    // if (window.util.getStorage('token')) {
+    //     config.url += '&token=' + window.util.getStorage('token');
+    // }
     return config;
 }, function (error) {
     return Promise.reject(error);

@@ -1,9 +1,12 @@
 import axios from './AxiosInterceptors';
 
-function get(url) {
+function get(url, params) {
 
+    console.log(params)
+    console.log(url)
     return new Promise((resolve, reject) => {
         axios.get(url, {
+                params: params,
                 headers: {'token': window.util.getStorage('token')}
             }
         ).then((res) => {
@@ -18,7 +21,6 @@ function get(url) {
     //         return error;
     //     });
 }
-
 
 export {
     get
