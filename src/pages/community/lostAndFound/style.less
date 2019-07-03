@@ -1,0 +1,88 @@
+#root-view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+
+  #user-info {
+    display: flex;
+    flex-direction: row;
+
+    #user-header-img {
+      width: 50px;
+      border-radius: 25px;
+      margin: 20px;
+      height: 50px;
+    }
+
+    #user-name {
+      display: flex;
+      flex-direction: column;
+
+      :first-child {
+        font-size: 1rem;
+        color: #000;
+      }
+
+      :last-child {
+        margin-top: 10px;
+        font-size: .5rem;
+        color: #999999;
+      }
+    }
+  }
+
+  #type-lost {
+    margin-left: 15px;
+
+    :first-child {
+      color: #666666;
+      font-weight: bolder;
+      font-size: 1.4rem;
+    }
+
+    :last-child {
+      color: #000;
+      font-family: Arial;
+      font-size: 1rem;
+    }
+  }
+
+
+  #lost-content {
+    margin-left: 15px;
+    font-size: 0.8rem;
+    color: #666666;
+  }
+
+  .goods-url {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .img-tips {
+    margin-left: 15px;
+    font-size: 0.8rem;
+    color: #4d4d4d;
+  }
+
+  #bottom-btn {
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    height: 50px;
+    bottom: 0px;
+
+    :first-child {
+      width: 60%;
+      background-color: #4d4d4d;
+    }
+
+    :last-child {
+      width: 40%;
+      background-color: #009688;
+    }
+  }
+}
