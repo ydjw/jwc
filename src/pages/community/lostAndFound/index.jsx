@@ -26,13 +26,27 @@ class LostAndFound extends Component {
         })
     }
 
+
+    openNativeChatPage = (objectId) => {
+        if (window.zhuandian) {
+            window.zhuandian.openChatPage(objectId)
+        }
+    }
+
+    openNativeUserInfo(objectId) {
+        if (window.zhuandian) {
+            window.zhuandian.scanUserInfo(objectId);
+        }
+    }
+
     render() {
         let {userEntity, result} = this.state
         return (
             <div id='root-view'>
 
                 <div id='user-info'>
-                    <img id='user-header-img' src={userEntity.headImgUrl}/>
+                    <img id='user-header-img' src={userEntity.headImgUrl}
+                         onClick={() => this.openNativeUserInfo(userEntity.objectId)}/>
                     <div id='user-name'>
                         <span>{userEntity.realName}</span>
                         <span id='release-time'>{result.createdAt}</span>
@@ -59,8 +73,8 @@ class LostAndFound extends Component {
                 }
 
                 <div id='bottom-btn'>
-                    <span>看TA资料</span>
-                    <span>联系TA</span>
+                    <span onClick={() => this.openNativeUserInfo(userEntity.objectId)}>看TA资料</span>
+                    <span onClick={() => this.openNativeChatPage(userEntity.objectId)}>联系TA</span>
                 </div>
             </div>
         );
