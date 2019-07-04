@@ -1,10 +1,10 @@
 {
   "main.css": "/jwc/static/css/main.8d597515.chunk.css",
-  "main.js": "/jwc/static/js/main.baded142.chunk.js",
-  "main.js.map": "/jwc/static/js/main.baded142.chunk.js.map",
+  "main.js": "/jwc/static/js/main.1c053a9c.chunk.js",
+  "main.js.map": "/jwc/static/js/main.1c053a9c.chunk.js.map",
   "static/css/1.e0b6e850.chunk.css": "/jwc/static/css/1.e0b6e850.chunk.css",
-  "static/js/1.d10d54d9.chunk.js": "/jwc/static/js/1.d10d54d9.chunk.js",
-  "static/js/1.d10d54d9.chunk.js.map": "/jwc/static/js/1.d10d54d9.chunk.js.map",
+  "static/js/1.cfabc7fa.chunk.js": "/jwc/static/js/1.cfabc7fa.chunk.js",
+  "static/js/1.cfabc7fa.chunk.js.map": "/jwc/static/js/1.cfabc7fa.chunk.js.map",
   "runtime~main.js": "/jwc/static/js/runtime~main.cfcb0562.js",
   "runtime~main.js.map": "/jwc/static/js/runtime~main.cfcb0562.js.map",
   "static/css/main.8d597515.chunk.css.map": "/jwc/static/css/main.8d597515.chunk.css.map",
@@ -13,6 +13,6 @@
   "static/media/ic_goods_sold_out.png": "/jwc/static/media/ic_goods_sold_out.5c18bea6.png",
   "static/css/1.e0b6e850.chunk.css.map": "/jwc/static/css/1.e0b6e850.chunk.css.map",
   "index.html": "/jwc/index.html",
-  "precache-manifest.2df9389f906d000ce3edff9c0848496e.js": "/jwc/precache-manifest.2df9389f906d000ce3edff9c0848496e.js",
+  "precache-manifest.866e78d4af14b634368054988a0133d2.js": "/jwc/precache-manifest.866e78d4af14b634368054988a0133d2.js",
   "service-worker.js": "/jwc/service-worker.js"
 }
