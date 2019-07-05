@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="封装项目通用get请求方法">
+    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="失物招领页添加唤起原生查看用户资料、唤起聊天方法">
+      <change afterPath="$PROJECT_DIR$/src/pages/education/syllabus/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/education/syllabus/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="zsjw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,40 +19,78 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="608">
-                    <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="62" />
-                    <folding>
-                      <element signature="e#0#39#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67477596">
+    <splitter split-orientation="horizontal" split-proportion="0.58450705">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-27">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="805">
+                  <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="663">
+                  <caret line="143" column="35" lean-forward="true" selection-start-line="141" selection-start-column="3" selection-end-line="143" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/index.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="672">
+                  <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2592">
+                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="517">
+                  <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/style.less">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1088">
+                  <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
                   </folding>
@@ -60,23 +99,40 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
+            <entry file="file://$PROJECT_DIR$/src/api/educations.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+                <state relative-caret-position="256">
+                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                <state relative-caret-position="1568">
+                  <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/axios/request.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="26" selection-start-column="26" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -84,8 +140,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+                <state relative-caret-position="4608">
+                  <caret line="144" selection-start-line="144" selection-end-line="144" />
                 </state>
               </provider>
             </entry>
@@ -124,6 +180,10 @@
       <find>axios</find>
       <find>getSearchByName</find>
       <find>token</find>
+      <find>http://zhjw.qfnu.edu.cn</find>
+      <find>zhjw.qfnu.edu.cn</find>
+      <find>react-scripts</find>
+      <find>http-proxy-middleware</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/homeMenu.less" />
         <option value="$PROJECT_DIR$/build/precache-manifest.6ca35b91986b812680d783bf5ce722e5.js" />
         <option value="$PROJECT_DIR$/src/components/less/homeMenu.less" />
         <option value="$PROJECT_DIR$/src/components/HomeMenu.jsx" />
@@ -167,21 +226,23 @@
         <option value="$PROJECT_DIR$/src/util/net/httpConfig.js" />
         <option value="$PROJECT_DIR$/src/util/net/http.js" />
         <option value="$PROJECT_DIR$/src/util/net/httpUtils.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/education/login/style.less" />
         <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/util/LocalStorageUtils.js" />
         <option value="$PROJECT_DIR$/src/util/util.js" />
-        <option value="$PROJECT_DIR$/src/pages/education/login/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/personManage.jsx" />
-        <option value="$PROJECT_DIR$/src/api/educations.js" />
         <option value="$PROJECT_DIR$/src/server/axios/request.js" />
-        <option value="$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/style.css" />
         <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/style.less" />
         <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/education/login/index.jsx" />
+        <option value="$PROJECT_DIR$/src/api/educations.js" />
+        <option value="$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js" />
+        <option value="$PROJECT_DIR$/src/setupProxy.js" />
+        <option value="$PROJECT_DIR$/src/pages/education/syllabus/index.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -207,11 +268,6 @@
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,14 +282,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -248,22 +296,6 @@
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="lostAndFound" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="qypicture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="education" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -272,7 +304,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="syllabus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -284,7 +316,8 @@
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="axios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,7 +473,10 @@
       <workItem from="1561080097764" duration="23000" />
       <workItem from="1561098061005" duration="395000" />
       <workItem from="1561942961357" duration="380000" />
-      <workItem from="1562117724769" duration="6613000" />
+      <workItem from="1562117724769" duration="8709000" />
+      <workItem from="1562212265712" duration="226000" />
+      <workItem from="1562215921810" duration="9115000" />
+      <workItem from="1562303886882" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -701,11 +737,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559554820605</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="失物招领详情页绘制">
+      <created>1562125291401</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1562125291401</updated>
+    </task>
+    <task id="LOCAL-00039" summary="失物招领页添加唤起原生查看用户资料、唤起聊天方法">
+      <created>1562125975093</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1562125975093</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157514000" />
+    <option name="totallyTimeSpent" value="169528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -717,14 +767,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.29609543" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.45770064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.34273317" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5856833" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29934925" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29826465" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -809,8 +859,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改项目title" />
-    <MESSAGE value="修改商品详情页底部运营条" />
     <MESSAGE value="添加一闪图片分享功能" />
     <MESSAGE value="抽取Bmob初始化为全局方法" />
     <MESSAGE value="定义失物招领、动态路由，搭建页面框架" />
@@ -834,31 +882,11 @@
     <MESSAGE value="完成登陆逻辑" />
     <MESSAGE value="get请求添加公共token处理" />
     <MESSAGE value="封装项目通用get请求方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装项目通用get请求方法" />
+    <MESSAGE value="失物招领详情页绘制" />
+    <MESSAGE value="失物招领页添加唤起原生查看用户资料、唤起聊天方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="失物招领页添加唤起原生查看用户资料、唤起聊天方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/utils.jsx" />
-    <entry file="file://$PROJECT_DIR$/node_modules/gh-pages/lib/git.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2016">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gh-pages/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/utils.js" />
     <entry file="file://$PROJECT_DIR$/config-overrides.js" />
     <entry file="file://$PROJECT_DIR$/src/util/initBmob.js">
@@ -976,34 +1004,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/LocalStorageUtils.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="132" column="2" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,32 +1020,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/axios/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/educations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1073,23 +1053,6 @@
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4576">
-          <caret line="143" column="34" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1191">
@@ -1107,26 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/education/login/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1134,27 +1077,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="352">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupProxy.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="2592">
           <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1088">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/educations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/axios/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4608">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/style.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="143" column="35" lean-forward="true" selection-start-line="141" selection-start-column="3" selection-end-line="143" selection-end-column="35" />
         </state>
       </provider>
     </entry>
