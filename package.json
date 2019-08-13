@@ -140,6 +140,5 @@
       ]
     ]
   },
-
-  "proxy":"http://zhjw.qfnu.edu.cn"
+  "proxy": "http://zhjw.qfnu.edu.cn"
 }

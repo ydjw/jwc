@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="失物招领页添加唤起原生查看用户资料、唤起聊天方法">
-      <change afterPath="$PROJECT_DIR$/src/pages/education/syllabus/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/syllabus/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/appVersion/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/appVersion/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="zsjw.iws" />
@@ -23,37 +24,28 @@
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.58450705">
+    <splitter split-orientation="horizontal" split-proportion="0.63909376">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/common/appVersion/index.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="805">
-                  <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+                <state relative-caret-position="4768">
+                  <caret line="149" column="48" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="48" />
                   <folding>
-                    <element signature="e#0#39#0" expanded="true" />
+                    <element signature="e#0#38#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="143" column="35" lean-forward="true" selection-start-line="141" selection-start-column="3" selection-end-line="143" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/index.jsx">
+            <entry file="file://G:/github/ydjw.github.io/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+                <state relative-caret-position="1440">
+                  <caret line="45" selection-start-line="6" selection-start-column="6" selection-end-line="45" />
                   <folding>
-                    <element signature="e#0#37#0" expanded="true" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -63,85 +55,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2592">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/style.less">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/api/educations.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1568">
-                  <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/server/axios/request.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="26" selection-start-column="26" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
+            <entry file="file://$PROJECT_DIR$/src/pages/common/appVersion/style.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="608">
-                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4608">
-                  <caret line="144" selection-start-line="144" selection-end-line="144" />
+                  <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -184,7 +102,13 @@
       <find>zhjw.qfnu.edu.cn</find>
       <find>react-scripts</find>
       <find>http-proxy-middleware</find>
+      <find>&lt;/a&gt;</find>
+      <find>style</find>
+      <find>&lt;hr/&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>div</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -192,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build/precache-manifest.6ca35b91986b812680d783bf5ce722e5.js" />
-        <option value="$PROJECT_DIR$/src/components/less/homeMenu.less" />
-        <option value="$PROJECT_DIR$/src/components/HomeMenu.jsx" />
         <option value="$PROJECT_DIR$/src/components/css/homeMenu.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/pages/Page1.jsx" />
@@ -241,8 +162,11 @@
         <option value="$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js" />
         <option value="$PROJECT_DIR$/src/setupProxy.js" />
         <option value="$PROJECT_DIR$/src/pages/education/syllabus/index.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="G:/github/ydjw.github.io/index.html" />
+        <option value="$PROJECT_DIR$/src/pages/common/appVersion/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/common/appVersion/style.less" />
       </list>
     </option>
   </component>
@@ -274,50 +198,28 @@
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsItemDetails" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="syllabus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="axios" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="appVersion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,6 +379,16 @@
       <workItem from="1562212265712" duration="226000" />
       <workItem from="1562215921810" duration="9115000" />
       <workItem from="1562303886882" duration="577000" />
+      <workItem from="1562819829744" duration="159000" />
+      <workItem from="1562820209941" duration="628000" />
+      <workItem from="1562822989483" duration="606000" />
+      <workItem from="1562825100030" duration="934000" />
+      <workItem from="1562827232133" duration="1702000" />
+      <workItem from="1562916883570" duration="51000" />
+      <workItem from="1565586098368" duration="2393000" />
+      <workItem from="1565603986782" duration="1103000" />
+      <workItem from="1565676818330" duration="1330000" />
+      <workItem from="1565678487435" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -755,13 +667,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169528000" />
+    <option name="totallyTimeSpent" value="180317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.17702845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49257424" weight="0.23445733" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5074257" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -774,7 +686,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5856833" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29826465" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2979415" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -887,32 +799,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="失物招领页添加唤起原生查看用户资料、唤起聊天方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/utils.js" />
-    <entry file="file://$PROJECT_DIR$/config-overrides.js" />
-    <entry file="file://$PROJECT_DIR$/src/util/initBmob.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/mml3/mathml3-content.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -927,18 +813,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/app_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/app_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/add.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/ic_goods_sold_out.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/app_logo.png" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/ic_goods_sold_out.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -949,36 +825,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-app-rewired/config-overrides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-app-rewired/config-overrides.js" />
     <entry file="file://$PROJECT_DIR$/src/util/net/httpConfig.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/css/home.css" />
     <entry file="file://$PROJECT_DIR$/src/util/net/httpUtils.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/tapable/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hydrogen-js-sdk/src/lib/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3648">
-          <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/tapable/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/hydrogen-js-sdk/src/lib/axios/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -986,9 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/qs/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/qs/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -1004,35 +854,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/LocalStorageUtils.js" />
-    <entry file="file://$PROJECT_DIR$/src/util/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1536">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/util.js" />
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1040,166 +864,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less" />
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/setupProxy.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less" />
+    <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/style.less" />
+    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1191">
-          <caret line="102" column="34" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="102" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="119" column="24" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="24" />
+        <state relative-caret-position="4352">
+          <caret line="136" selection-start-line="135" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/education/login/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#70#491#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/setupProxy.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/educations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/axios/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="256">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/personManage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/pages/education/login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/axios/AxiosInterceptors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4608">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/style.less">
+    <entry file="file://$PROJECT_DIR$/src/pages/home.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+        <state relative-caret-position="-73">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/education/syllabus/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/img/app_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/ic_event_note_black_48dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/ic_poll_black_48dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="64">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/github/ydjw.github.io/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="45" selection-start-line="6" selection-start-column="6" selection-end-line="45" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/pages/common/appVersion/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="143" column="35" lean-forward="true" selection-start-line="141" selection-start-column="3" selection-end-line="143" selection-end-column="35" />
+        <state relative-caret-position="4768">
+          <caret line="149" column="48" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/common/appVersion/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ import Dynamic from './pages/community/dynamic'
 import LostAndFound from './pages/community/lostAndFound'
 import LoginPage from './pages/education/login'
 import SyllabusPage from './pages/education/syllabus'
+import AppVersion from './pages/common/appVersion'
 
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
                     <Route path="/education/login" component={LoginPage}/>
                     <Route path="/home" component={Home}/>
                     <Route path="/education/syllabus" component={SyllabusPage}/>
+                    <Route path="/common/appVersion" component={AppVersion}/>
                 </div>
             </Router>
         );
