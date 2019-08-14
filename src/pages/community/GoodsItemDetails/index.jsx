@@ -53,7 +53,7 @@ class GoodsItemDetail extends Component {
         let {result, userEntity} = this.state
         return (
 
-            <div id='root-view'>
+            <div id='goods-root-view'>
                 <div id='user-info'>
                     <img id='user-head-img' onClick={() => this.scanUserInfo(userEntity.objectId)}
                          src={userEntity.headImgUrl}/>

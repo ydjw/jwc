@@ -9,6 +9,7 @@ import LostAndFound from './pages/community/lostAndFound'
 import LoginPage from './pages/education/login'
 import SyllabusPage from './pages/education/syllabus'
 import AppVersion from './pages/common/appVersion'
+import AppIntro from './pages/common/appIntro'
 
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
                     <Route path="/home" component={Home}/>
                     <Route path="/education/syllabus" component={SyllabusPage}/>
                     <Route path="/common/appVersion" component={AppVersion}/>
+                    <Route path="/common/appIntro" component={AppIntro}/>
                 </div>
             </Router>
         );
