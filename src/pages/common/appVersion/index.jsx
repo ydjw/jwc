@@ -5,8 +5,8 @@ import appLogo from '../../../img/app_logo.png'
 export default class AppVersion extends Component {
     render() {
         return (
-            <div className="root-view">
-                <div className="version-app-info" onclick="window.zhuandian.openAboutUsPage()">
+            <div className="version-root-view">
+                <div className="app-info" onclick="window.zhuandian.openAboutUsPage()">
                     <img src={appLogo}/>
                     <div>曲园掌上教务
                     </div>
