@@ -10,70 +10,99 @@ export default class AppVersion extends Component {
                     <img src={appLogo}/>
                     <div>曲园掌上教务
                     </div>
-                    <div>-最新版本 V3.2.1-</div>
+                    <div>-最新版本 V3.5.0-</div>
+                </div>
+
+
+                <div className="line"/>
+                <div className="version-item">
+                    <span className="version-title">版本 3.5.0 </span>
+                    <div className="version-time">更新
+                        日志：2019-08-15
+                    </div>
+                    <div className="line"/>
+                    1.引入flutter帮跑module<br/>
+                    2.失物招领新增详情页展示<br/>
+                    3.app整体风格向素白色转型<br/>
+                    4.社区发布动态、评论、失物招领新增上传图片功能<br/>
+                    5.社区UI改版<br/>
+                    6.教务页UI改版<br/>
                 </div>
                 <div className="line"/>
 
+
+                <div className="line"/>
+                <div className="version-item">
+                    <span className="version-title">版本 3.3.1 </span>
+                    <div className="version-time">更新
+                        日志：2019-06-26
+                    </div>
+                    <div className="line"/>
+                    1.适配金智教育教务系统，正常支持选课查成绩使用<br/>
+                    2.适配新教务系统课表<br/>
+                    3.首页UI改版<br/>
+                    4.解决老版本部分手机不能正常定位天气问题<br/>
+                </div>
+                <div className="line"/>
+
+
+                <div className="line"/>
                 <div className="version-item">
                     <span className="version-title">版本 3.2.1 </span>
                     <div className="version-time">更新
                         日志：2018-12-16
                     </div>
-
                     <div className="line"/>
                     1.修复教务资源无法正常访问时软件崩溃异常<br/>
                     2.社交页新增一闪模块<br/>
                     3.个人中心新增用户修改昵称入口<br/>
-
-
                 </div>
                 <div className="line"/>
+
 
                 <div className="version-item">
                     <span className="version-title">版本 3.2.0</span>
                     <div className="version-time">更新
                         日志：2018-12-07
                     </div>
-
                     <div className="line"/>
                     1.修复用户头像跟跳蚤市场图片不能正常显示的问题<br/>
                     2.跳蚤市场发布商品新增类型逻辑处理<br/>
                     3.优化部分教务资源访问逻辑处理
-
                 </div>
                 <div className="line"/>
+
 
                 <div className="version-item">
                     <span className="version-title">版本 3.1.3</span>
                     <div className="version-time">更新
                         日志：2018-10-30
                     </div>
-
                     <div className="line"/>
                     1.修复教务处强行修改教务咨询导致APP闪退问题
                     <br/>
-
                 </div>
                 <div className="line"/>
+
 
                 <div className="version-item">
                     <span className="version-title">版本 3.1.2</span>
                     <div className="version-time">更新
                         日志：2018-10-24
                     </div>
-
                     <div className="line"/>
                     1.修复部分用户发帖异常崩溃问题
                     <br/>
                     2.解决访问教务资源不能自动登录问题<br/>
                 </div>
                 <div className="line"/>
+
+
                 <div className="version-item">
                     <span className="version-title">版本 3.1.1</span>
                     <div className="version-time">更新
                         日志：2018-09-30
                     </div>
-
                     <div className="line"/>
                     1.教务处添加验证码登录校验<br/>
                     2.升级用户表部分字段，解决部分重名用户信息冲突问题<br/>
@@ -85,10 +114,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 3.1.0  </span>
                     <div className="version-time">更新日志：2018-08-28</div>
-
                     <div className="line"/>
                     1.社区点击用户头像新增查看大图功能<br/>
                     2.增加查看别人全部动态功能（匿名不可查）<br/>
@@ -97,10 +126,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 3.0.9</span>
                     <div className="version-time">更新日志：2018-08-16</div>
-
                     <div className="line"/>
                     1.适配低版本手机确保线上用户正常在线升级<br/>
                     2.配置360手机市场、应用宝、百度手机助手等渠道自动打包<br/>
@@ -110,10 +139,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 3.0.8</span>
                     <div className="version-time">更新日志：2018-08-06</div>
-
                     <div className="line"/>
                     1.修复发帖人删除帖子后，参入回帖的人检索“我参与的”奔溃退出异常<br/>
                     2.升级uPush，正式打通3.0之后的消息通道<br/>
@@ -122,10 +151,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 3.0.7</span>
                     <div className="version-time">更新日志：2018-08-06</div>
-
                     <div className="line"/>
                     1.教务系统升级金智教育平台，重新做登录适配<br/>
                     2.教务处升级金智教育平台后原2.x版本（采用老教务系统）<br/>
@@ -133,10 +162,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 3.0.6</span>
                     <div className="version-time">更新日志：2018-06-12</div>
-
                     <div className="line"/>
                     1.UI、UE全新升级更棒的体验<br/>
                     2.新增用户修改头像功能（被要求了好久，终于加上了）<br/>
@@ -145,10 +174,10 @@ export default class AppVersion extends Component {
                 </div>
                 <div className="line"/>
 
+
                 <div className="version-item">
                     <span className="version-title">版本 2.x</span>
                     <div className="version-time">更新日志：废弃版本</div>
-
                     <div className="line"/>
                     原2.x 版本定义为废弃版本，不再更新维护，<br/>
                     请下载最新版使用！
