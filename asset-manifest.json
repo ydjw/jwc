@@ -1,10 +1,10 @@
 {
   "main.css": "/jwc/static/css/main.b5f03273.chunk.css",
-  "main.js": "/jwc/static/js/main.aef54dbe.chunk.js",
-  "main.js.map": "/jwc/static/js/main.aef54dbe.chunk.js.map",
+  "main.js": "/jwc/static/js/main.bc4e5b78.chunk.js",
+  "main.js.map": "/jwc/static/js/main.bc4e5b78.chunk.js.map",
   "static/css/1.d5526a78.chunk.css": "/jwc/static/css/1.d5526a78.chunk.css",
-  "static/js/1.950dcb62.chunk.js": "/jwc/static/js/1.950dcb62.chunk.js",
-  "static/js/1.950dcb62.chunk.js.map": "/jwc/static/js/1.950dcb62.chunk.js.map",
+  "static/js/1.b5000f68.chunk.js": "/jwc/static/js/1.b5000f68.chunk.js",
+  "static/js/1.b5000f68.chunk.js.map": "/jwc/static/js/1.b5000f68.chunk.js.map",
   "runtime~main.js": "/jwc/static/js/runtime~main.cfcb0562.js",
   "runtime~main.js.map": "/jwc/static/js/runtime~main.cfcb0562.js.map",
   "static/css/main.b5f03273.chunk.css.map": "/jwc/static/css/main.b5f03273.chunk.css.map",
@@ -13,6 +13,6 @@
   "static/media/ic_goods_sold_out.png": "/jwc/static/media/ic_goods_sold_out.5c18bea6.png",
   "static/css/1.d5526a78.chunk.css.map": "/jwc/static/css/1.d5526a78.chunk.css.map",
   "index.html": "/jwc/index.html",
-  "precache-manifest.1e510af424312d310e36b221daa47931.js": "/jwc/precache-manifest.1e510af424312d310e36b221daa47931.js",
+  "precache-manifest.7d79a7537f9af084d95896b1152e5d5f.js": "/jwc/precache-manifest.7d79a7537f9af084d95896b1152e5d5f.js",
   "service-worker.js": "/jwc/service-worker.js"
 }
