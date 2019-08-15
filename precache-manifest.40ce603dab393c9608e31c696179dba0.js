@@ -12,27 +12,31 @@ self.__precacheManifest = [
     "url": "/jwc/static/media/app_logo.1f2b2513.png"
   },
   {
+    "revision": "5663993f614fa835d607831abbe4dfbf",
+    "url": "/jwc/static/media/app_intro_01.5663993f.png"
+  },
+  {
     "revision": "cfcb056202f77854882a",
     "url": "/jwc/static/js/runtime~main.cfcb0562.js"
   },
   {
-    "revision": "a09a08ef82716e6dca0a",
-    "url": "/jwc/static/js/main.a09a08ef.chunk.js"
+    "revision": "d9cf58657fae076e75f7",
+    "url": "/jwc/static/js/main.d9cf5865.chunk.js"
   },
   {
-    "revision": "b5000f683c2258610f83",
-    "url": "/jwc/static/js/1.b5000f68.chunk.js"
+    "revision": "191b73e5d84fea7bf13f",
+    "url": "/jwc/static/js/1.191b73e5.chunk.js"
   },
   {
-    "revision": "a09a08ef82716e6dca0a",
-    "url": "/jwc/static/css/main.7eee93ff.chunk.css"
+    "revision": "d9cf58657fae076e75f7",
+    "url": "/jwc/static/css/main.47dc2654.chunk.css"
   },
   {
-    "revision": "b5000f683c2258610f83",
+    "revision": "191b73e5d84fea7bf13f",
     "url": "/jwc/static/css/1.d5526a78.chunk.css"
   },
   {
-    "revision": "801a0fdebc549ff663f6ecf7906175c1",
+    "revision": "ef4206f5e9e1ab6b3383059bab6f02a7",
     "url": "/jwc/index.html"
   }
 ];
