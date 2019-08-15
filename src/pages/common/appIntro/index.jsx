@@ -12,7 +12,7 @@ class AppIntro extends Component {
 
     render() {
         return (
-            <div id='root-view'>
+            <div id='intro-root-view'>
                 <img className="img-content" src='image/app_intro_01.png'/>
                 <img className="img-title" src='image/ic_app_home_title.jpg'/>
                 <img className="img-content" src='image/ic_app_home.jpg'/>

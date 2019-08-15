@@ -42,7 +42,7 @@ class LostAndFound extends Component {
     render() {
         let {userEntity, result} = this.state
         return (
-            <div id='root-view'>
+            <div id='lost-and-found-root-view'>
 
                 <div id='user-info'>
                     <img id='user-header-img' src={userEntity.headImgUrl}
