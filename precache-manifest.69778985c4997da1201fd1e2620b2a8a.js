@@ -12,31 +12,27 @@ self.__precacheManifest = [
     "url": "/jwc/static/media/app_logo.1f2b2513.png"
   },
   {
-    "revision": "5663993f614fa835d607831abbe4dfbf",
-    "url": "/jwc/static/media/app_intro_01.5663993f.png"
-  },
-  {
     "revision": "cfcb056202f77854882a",
     "url": "/jwc/static/js/runtime~main.cfcb0562.js"
   },
   {
-    "revision": "d9cf58657fae076e75f7",
-    "url": "/jwc/static/js/main.d9cf5865.chunk.js"
+    "revision": "8a1846cd150dcb890443",
+    "url": "/jwc/static/js/main.8a1846cd.chunk.js"
   },
   {
     "revision": "191b73e5d84fea7bf13f",
     "url": "/jwc/static/js/1.191b73e5.chunk.js"
   },
   {
-    "revision": "d9cf58657fae076e75f7",
-    "url": "/jwc/static/css/main.47dc2654.chunk.css"
+    "revision": "8a1846cd150dcb890443",
+    "url": "/jwc/static/css/main.063d1ac7.chunk.css"
   },
   {
     "revision": "191b73e5d84fea7bf13f",
     "url": "/jwc/static/css/1.d5526a78.chunk.css"
   },
   {
-    "revision": "ef4206f5e9e1ab6b3383059bab6f02a7",
+    "revision": "6c323cf1f87d8869d2b8bdc019fdc5ed",
     "url": "/jwc/index.html"
   }
 ];
