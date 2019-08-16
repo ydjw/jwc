@@ -11,21 +11,46 @@ html, body {
   }
 
   #btn-container {
-    background: url("./app_intro_01.png") no-repeat ;
+    background-color: #36353b;
     width: 100%;
     background-size: 100% auto;
     display: flex;
-    height: 650px;
-    justify-content: space-around;
+    height: 600px;
+    flex-direction: column;
 
-    span {
-      margin: auto 0px;
-      margin-top: 120px;
+
+    #app-info {
+      font-weight: bold;
+      margin-top: 80px;
+      color: white;
+      font-family: Arial;
+      font-size: 1.0rem;
+    }
+
+    img {
+      height: 180px;
+      width: 180px;
+      margin: 0px auto;
+      margin-top: 80px;
+    }
+
+    #we-chat-info {
+      color: white;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      margin-top: 35px;
+      font-size: 0.8rem;
+    }
+
+    #down-btn {
+      font-weight: bold;
+      width: 160px;
+      margin-top: 35px;
       text-align: center;
       padding: 15px 20px;
-      color: #939393;
+      color: #666666;
       border-radius: 20px;
-      background: #ffffff99;
+      background: white;
+      //background: rgba(235, 235, 235, 0.3);
     }
   }
 
