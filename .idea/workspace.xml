@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="回退项目依赖升级">
+    <list default="true" id="a559a220-0c20-469b-a123-3690f48135e5" name="Default" comment="修改app介绍页">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/image/app_intro_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/common/appIntro/app_intro_01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/common/appIntro/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/common/appIntro/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/common/appIntro/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/common/appIntro/style.less" afterDir="false" />
     </list>
@@ -21,53 +22,49 @@
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5778237">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="22" column="43" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/index.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="215">
+                  <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="71" />
+                  <folding>
+                    <element signature="e#0#38#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,14 +165,14 @@
         <option value="$PROJECT_DIR$/src/pages/common/appVersion/style.less" />
         <option value="$PROJECT_DIR$/src/pages/common/appVersion/index.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/pages/common/appIntro/style.less" />
         <option value="$PROJECT_DIR$/src/pages/common/appIntro/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/common/appIntro/style.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-365" />
+    <option name="y" value="145" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -188,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +197,12 @@
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,16 +297,17 @@
     <property name="ts.external.directory.path" value="E:\Program Files\WebStorm 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\web\zsjw-react\public\image" />
-      <recent name="E:\web\zsjw-react\src\components\less" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\web\zsjw-react\public\image" />
       <recent name="E:\web\zsjw-react\src\img" />
       <recent name="E:\web\zsjw-react\src\pages\community\GoodsItemDetails" />
       <recent name="E:\web\zsjw-react\src\pages\community\dynamic\img" />
       <recent name="E:\web\zsjw-react\src\pages\community\lostAndFound" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\zsjw-react\src\pages\common\appIntro" />
+      <recent name="E:\web\zsjw-react\public\image" />
+      <recent name="E:\web\zsjw-react\src\components\less" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,7 +450,10 @@
       <workItem from="1565832991937" duration="1051000" />
       <workItem from="1565838169309" duration="1168000" />
       <workItem from="1565845944268" duration="2440000" />
-      <workItem from="1565853122391" duration="439000" />
+      <workItem from="1565853122391" duration="4873000" />
+      <workItem from="1565859432168" duration="47000" />
+      <workItem from="1565866418355" duration="669000" />
+      <workItem from="1565925089351" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件">
       <created>1547430379009</created>
@@ -770,29 +777,37 @@
       <option name="project" value="LOCAL" />
       <updated>1565848144555</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="修改app介绍页">
+      <created>1565853594823</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1565853594824</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191490000" />
+    <option name="totallyTimeSpent" value="197290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.23498419" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49257424" weight="0.23498419" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5074257" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.30260304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.19414316" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5856833" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27440348" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27410617" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -887,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="评价输入框、评论列表界面切换UI绘制完成" />
     <MESSAGE value="修改评论逻辑" />
     <MESSAGE value="暂存代码" />
     <MESSAGE value="添加商品下架逻辑，修改底部显示按钮" />
@@ -912,10 +926,10 @@
     <MESSAGE value="更新app升级版本说明" />
     <MESSAGE value="升级项目依赖" />
     <MESSAGE value="回退项目依赖升级" />
-    <option name="LAST_COMMIT_MESSAGE" value="回退项目依赖升级" />
+    <MESSAGE value="修改app介绍页" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改app介绍页" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/net/httpConfig.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/css/home.css" />
     <entry file="file://$PROJECT_DIR$/src/util/net/httpUtils.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/tapable/index.d.ts" />
@@ -1019,9 +1033,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/image/app_intro_01.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/image/app_intro_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1096,16 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1116,17 +1117,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="16420" column="4" selection-start-line="16420" selection-start-column="4" selection-end-line="16420" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/app_intro_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="242">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/common/appIntro/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="215">
+          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="71" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

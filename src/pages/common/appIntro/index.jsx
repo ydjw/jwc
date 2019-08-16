@@ -10,11 +10,21 @@ class AppIntro extends Component {
 
     }
 
+    downAppPage = async () => {
+        window.open("http://zhushou.360.cn/detail/index/soft_id/1788872", "_self")
+    }
+
     render() {
         return (
             <div id='intro-root-view'>
-                <img className="img-content" src='https://i.loli.net/2019/08/14/AeHJ2FIoOzbSG5r.png'/>
-                <img className="img-content" src='image/app_intro_01.png'/>
+
+
+                {/*<img className="img-content" src='https://i.loli.net/2019/08/14/AeHJ2FIoOzbSG5r.png'/>*/}
+                <div id='btn-container'>
+                    <span onClick={this.downAppPage}>下载APP</span>
+                    <span>微信公众号</span>
+                </div>
+                {/*<img className="img-content" src='image/app_intro_01.png'/>*/}
                 <img className="img-title" src='image/ic_app_home_title.jpg'/>
                 <img className="img-content" src='image/ic_app_home.jpg'/>
                 <img className="img-title" src='image/ic_app_jiaowu_title.jpg'/>
