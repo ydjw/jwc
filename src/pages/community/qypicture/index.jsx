@@ -19,7 +19,7 @@ export default class QyPicture extends Component {
     openNativeApp = async ()=>{
         window.open("app://ydjw/social?page=qy_picture","_self")
         window.setTimeout(function () {
-          window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile","_self")
+          window.open(global.constants.app_down_url,"_self")
         },500)
     }
     initData = async () => {

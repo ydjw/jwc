@@ -11,7 +11,7 @@ class AppIntro extends Component {
     }
 
     downAppPage = async () => {
-        window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile", "_self")
+        window.open(global.constants.app_down_url, "_self")
     }
 
     render() {

@@ -39,7 +39,7 @@ class GoodsItemDetail extends Component {
             window.zhuandian.scanUserInfo(objectId)
         } else {
             Toast.loading("请在登陆后APP查看...", 1, () => {
-                window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile", "_self")
+                window.open(global.constants.app_down_url, "_self")
             })
         }
     }
@@ -49,7 +49,7 @@ class GoodsItemDetail extends Component {
             window.zhuandian.openChatPage(objectId)
         } else {
             Toast.loading("请在登陆后APP查看...", 1, () => {
-                window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile", "_self")
+                window.open(global.constants.app_down_url, "_self")
             })
         }
 

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {HashRouter as Router, Route} from 'react-router-dom';
 import Home from './pages/home.jsx'
+import './util/constant'
 import PersonManage from './pages/personManage.jsx'
 import GoodsItemDetail from './pages/community/GoodsItemDetails'
 import QyPicture from './pages/community/qypicture'
