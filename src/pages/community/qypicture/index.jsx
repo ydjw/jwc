@@ -16,6 +16,12 @@ export default class QyPicture extends Component {
         this.initData();
     }
 
+    openNativeApp = async ()=>{
+        window.open("app://ydjw/social?page=qy_picture","_self")
+        window.setTimeout(function () {
+          window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile","_self")
+        },500)
+    }
     initData = async () => {
         let objectId =window.util.getSearchByName('objectId')
         let result = await window.bmob.Query('QyPictureEntity').get(objectId);
@@ -51,7 +57,7 @@ export default class QyPicture extends Component {
                             <span id='app-desc'>最懂你的教务社交APP</span>
                         </div>
                     </div>
-                    <span id='download-now'><a id='herf-app' href='app://ydjw/social?page=qy_picture'>去看看</a></span>
+                    <span id='download-now'><a id='herf-app' onClick={this.openNativeApp}>去看看</a></span>
                 </div>
             </div>
         );

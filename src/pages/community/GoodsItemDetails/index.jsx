@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './style.css'
 import app_logo from "./app_logo.png"
 import ic_goods_sold_out from './ic_goods_sold_out.png'
+import {Toast} from "antd-mobile";
 
 
 class GoodsItemDetail extends Component {
@@ -36,12 +37,22 @@ class GoodsItemDetail extends Component {
     scanUserInfo(objectId) {
         if (window.zhuandian) {
             window.zhuandian.scanUserInfo(objectId)
+        } else {
+            Toast.loading("请在登陆后APP查看...", 1, () => {
+                window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile", "_self")
+            })
         }
     }
 
     openChatPage(objectId) {
-        if (window.zhuandian)
+        if (window.zhuandian) {
             window.zhuandian.openChatPage(objectId)
+        } else {
+            Toast.loading("请在登陆后APP查看...", 1, () => {
+                window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.qfnu.ydjw&ADTAG=mobile", "_self")
+            })
+        }
+
     }
 
     showPictureDetail(url) {
