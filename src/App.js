@@ -11,6 +11,7 @@ import LoginPage from './pages/education/login'
 import SyllabusPage from './pages/education/syllabus'
 import AppVersion from './pages/common/appVersion'
 import AppIntro from './pages/common/appIntro'
+import Pyfa from './pages/common/pyfa'
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
                     <Route path="/education/syllabus" component={SyllabusPage}/>
                     <Route path="/common/appVersion" component={AppVersion}/>
                     <Route path="/common/appIntro" component={AppIntro}/>
+                    <Route path="/common/pyfa" component={Pyfa}/>
                 </div>
             </Router>
         );
