@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/jwc/static/js/runtime~main.cfcb0562.js"
   },
   {
-    "revision": "2941245438b06fe18d8c",
-    "url": "/jwc/static/js/main.29412454.chunk.js"
+    "revision": "819c88162e4fbc3ce3f8",
+    "url": "/jwc/static/js/main.819c8816.chunk.js"
   },
   {
-    "revision": "191b73e5d84fea7bf13f",
-    "url": "/jwc/static/js/1.191b73e5.chunk.js"
+    "revision": "ab4f3229e9a0567df0ff",
+    "url": "/jwc/static/js/1.ab4f3229.chunk.js"
   },
   {
-    "revision": "2941245438b06fe18d8c",
-    "url": "/jwc/static/css/main.3bf12732.chunk.css"
+    "revision": "819c88162e4fbc3ce3f8",
+    "url": "/jwc/static/css/main.81bcd731.chunk.css"
   },
   {
-    "revision": "191b73e5d84fea7bf13f",
-    "url": "/jwc/static/css/1.d5526a78.chunk.css"
+    "revision": "ab4f3229e9a0567df0ff",
+    "url": "/jwc/static/css/1.a7adc310.chunk.css"
   },
   {
-    "revision": "44cefc18e0acd707493937d9652ef303",
+    "revision": "c8b5f3edee4f9b1eec3d6877d2071739",
     "url": "/jwc/index.html"
   }
 ];
