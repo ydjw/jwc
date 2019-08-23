@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import './style.less'
-import icLikeImg from './img/share_likes.png'
 import icReplyImg from './img/share_reply.png'
 import heartSharePen from './img/heart_share_pen.png'
 
@@ -37,14 +36,10 @@ export default class Dynamic extends Component {
 
     componentDidMount() {
         let objectId = window.util.getSearchByName('objectId')
-        window.bmob.Query('HeartShare').get(objectId)
+        window.bmob.Query('TopicEntity').get(objectId)
             .then(res => {
-                window.bmob.Query('_User')
-                    .get(res.author.objectId).then(result => {
-                    this.setState({
-                        dynamicEntity: res,
-                        dynamicAuthor: result
-                    })
+                this.setState({
+                    dynamicEntity: res,
                 })
             })
 
@@ -64,20 +59,21 @@ export default class Dynamic extends Component {
         return (
             <div id='dynamic-root'>
                 <div id='dynamic-card'>
-                    <span id='new-dynamic-info'>一个新的动态来自▶</span>
+                    <span id='new-dynamic-info'>本期话题</span>
                     <span id="dynamic-author">{dynamicAuthor.realName}</span>
-                    <div id='dynamic-title'>
-                        <img id='dynamic-author-header' src={dynamicAuthor.headImgUrl}/>
-                        <span id='dynamic-type'>{dynamicEntity.contentType}</span>
-                        <span id='dynamic-school'>曲园</span>
-                        <span id='dynamic-time'>{dynamicEntity.updatedAt}</span>
-                    </div>
+                    <span id='dynamic-time'>{dynamicEntity.updatedAt}</span>
                     <div id="dynamic-content">{dynamicEntity.content}</div>
-                    <div>
-                        <img className='dynamic-reply-img' src={icLikeImg}/>
-                        <span className='dynamic-reply-text'>40</span>
+                    <div id='img-contaniner'>
+                        {
+                            (dynamicEntity && dynamicEntity.dynamicImgUrl || []).map((item, index) => {
+                                return <img src={item}/>
+                            })
+                        }
+
+                    </div>
+                    <div id='reply-count'>
                         <img className='dynamic-reply-img' src={icReplyImg}/>
-                        <span className='dynamic-reply-text'>{commentEntity.length}</span>
+                        <span className='dynamic-reply-text'>{commentEntity.length}人参与</span>
                     </div>
                 </div>
 
@@ -113,7 +109,6 @@ export default class Dynamic extends Component {
                         :
                         <div></div>
                 }
-
 
             </div>
         )

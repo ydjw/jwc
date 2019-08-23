@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/common/pyfa/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/common/pyfa/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,53 +12,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-1216">
+                    <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+                    <folding>
+                      <element signature="e#0#39#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54840684">
+    <splitter split-orientation="horizontal" split-proportion="0.6480506">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/util/constant.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="6" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/common/pyfa/index.jsx">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="353">
-                  <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+                <state relative-caret-position="448">
+                  <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -68,24 +56,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/common/pyfa/style.less">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="581">
-                  <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                <state relative-caret-position="152">
+                  <caret line="41" selection-start-line="41" selection-end-line="41" />
                 </state>
               </provider>
             </entry>
@@ -125,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/common/pyfa/style.less" />
         <option value="$PROJECT_DIR$/src/pages/common/pyfa/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/community/dynamic/style.less" />
       </list>
     </option>
   </component>
@@ -143,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +178,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="GoodsItemDetails" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +342,9 @@
       <workItem from="1565932359552" duration="5042000" />
       <workItem from="1566267389501" duration="5292000" />
       <workItem from="1566273427405" duration="597000" />
-      <workItem from="1566278526898" duration="1249000" />
+      <workItem from="1566278526898" duration="1582000" />
+      <workItem from="1566467119379" duration="1129000" />
+      <workItem from="1566521097118" duration="3643000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -379,12 +367,12 @@
       <option name="project" value="LOCAL" />
       <updated>1566271081146</updated>
     </task>
-    <task id="LOCAL-00004" summary="修改首页布局">
-      <created>1547451889134</created>
+    <task id="LOCAL-00004" summary="添加培养方案查询入口">
+      <created>1566279832332</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1547451889134</updated>
+      <updated>1566279832332</updated>
     </task>
     <task id="LOCAL-00005" summary="修改首页布局">
       <created>1547518026925</created>
@@ -694,30 +682,30 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12401000" />
+    <option name="totallyTimeSpent" value="17506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49257424" visible="true" weight="0.14014752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49257424" weight="0.18440464" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5074257" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.45336226" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4370933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5856833" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5124594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19197397" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -780,7 +768,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="定义跳蚤市场页hybird互调方法" />
     <MESSAGE value="修改商品详情页标题" />
     <MESSAGE value="修改商品详情页上下滑动页面抖动问题" />
     <MESSAGE value="修改readme文件" />
@@ -805,7 +792,8 @@
     <MESSAGE value="修改app介绍页" />
     <MESSAGE value="完善分享页唤起app逻辑" />
     <MESSAGE value="抽取app下载链接为全局变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽取app下载链接为全局变量" />
+    <MESSAGE value="添加培养方案查询入口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加培养方案查询入口" />
   </component>
   <component name="WindowStateProjectService">
     <state width="426" height="417" key="Git.Branch.Popup" />
@@ -901,16 +889,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/constant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="608">
           <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -920,14 +901,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/common/pyfa/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="178">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/common/pyfa/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="-1216">
           <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -935,13 +933,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/common/pyfa/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="448">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
