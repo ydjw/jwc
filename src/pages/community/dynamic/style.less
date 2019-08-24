@@ -5,6 +5,8 @@ body, html {
 }
 
 #dynamic-root {
+  position: relative;
+  height: 100%;
   #dynamic-card {
     margin-top: 30px;
     background-color: white;
@@ -71,41 +73,39 @@ body, html {
 
   #comment-item {
     padding: 10px;
+    
 
-    #commenter-header {
-      width: 30px;
-      height: 30px;
-      border-radius: 15px;
+    #comment-index{
+      display: flex;
+      flex-direction: column;
+
+  
+      
+      #commenter-time {
+        margin-top: 6px;
+        font-size: 0.3rem;
+        color: #818181;
+        margin-bottom: 5px;
+      }
     }
 
-    #commenter-name {
-      font-size: 0.6rem;
-      color: #818181;
-      margin-left: 10px;
-    }
-
-    #commenter-time {
-      font-size: 0.6rem;
-      color: #818181;
-      margin-left: 10px;
-    }
+   
 
     #comment-content {
-      font-size: 0.8rem;
+      font-size: 1.0rem;
       color: #818181;
     }
   }
 
   #round-btn {
-    position: relative;
     width: 50px;
     height: 50px;
     text-align: center;
     vertical-align: center;
+    position: fixed;
     border-radius: 25px;
     background-color: #b1b107;
-    position: absolute;
-    bottom: 25px;
+    bottom: 30px;
     right: 15px;
 
     #new-pen {

@@ -27,15 +27,27 @@ export default class Dynamic extends Component {
      * @returns {Promise<void>}
      */
     releaseNewComment = async () => {
-        let currentUserId = window.util.getSearchByName('currentUserId')
+       let commentStr = document.getElementById("comment-input").value;
+        const pointer = window.bmob.Pointer("TopicEntity")
+        const pointerId = pointer.set(window.util.getSearchByName('objectId'))
+       const query= window.bmob.Query("TopicCommentEntity")
+       query.set("commentContent",commentStr);
+       query.set("topicEntity",pointerId);
+       query.save().then(
+           res=>{
+            this.getCommentList();
+            this.setState({
+                showType: 1
+            })
+           }
+       )
 
-        this.setState({
-            showType: 1
-        })
+        
     }
 
     componentDidMount() {
         let objectId = window.util.getSearchByName('objectId')
+
         window.bmob.Query('TopicEntity').get(objectId)
             .then(res => {
                 this.setState({
@@ -43,15 +55,20 @@ export default class Dynamic extends Component {
                 })
             })
 
-        let query = window.bmob.Query('Comment');
-        query.equalTo("heartshare", "==", objectId);
-        query.include('myuser', '_User');
-        query.find().then(result => {
+            this.getCommentList();
+      
+
+    }
+
+    getCommentList(){
+        let objectId = window.util.getSearchByName('objectId')
+        let queryCommentList = window.bmob.Query('TopicCommentEntity');
+        queryCommentList.equalTo("topicEntity", "==", objectId);
+        queryCommentList.find().then(result => {
             this.setState({
                 commentEntity: result
             })
         })
-
     }
 
     render() {
@@ -82,18 +99,21 @@ export default class Dynamic extends Component {
                         (commentEntity || []).map((item, index) => {
                             return (
                                 <div id='comment-item'>
-                                    <div>
-                                        <img id='commenter-header' src={commentEntity[index].myuser.headImgUrl}/>
-                                        <span id='commenter-name'>{commentEntity[index].myuser.username}</span>
-                                        <span id='commenter-time'>{commentEntity[index].createdAt}</span>
-                                    </div>
-                                    <span id='comment-content'>{commentEntity[index].content}</span>
+                                   
+                                   <div id='comment-index'>
+                                   <div>{index+1}楼</div>
+                                   <div id='commenter-time'>{item.createdAt}</div>
+                                   </div>
+                                    <span id='comment-content'>{item.commentContent}</span>
+                                    
                                 </div>
                             )
                         })
                         :
                         <div id='root'>
-                            <input id='comment-input'/>
+                            <input id='comment-input' 
+                            type="text"
+                          />
                             <div id='release-comment' onClick={this.releaseNewComment}>
                                 <span>发布评论</span>
                             </div>
@@ -107,7 +127,9 @@ export default class Dynamic extends Component {
                             <img id='new-pen' src={heartSharePen}/>
                         </div>
                         :
-                        <div></div>
+                        <div>
+                
+                        </div>
                 }
 
             </div>
