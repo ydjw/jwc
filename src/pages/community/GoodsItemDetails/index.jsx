@@ -75,12 +75,18 @@ class GoodsItemDetail extends Component {
                 </div>
                 <div id='goods-desc'>
                     <div>
-                        <p id='goods-title'>{result.goodsTitle}</p>
-
+                       
+                       
                         <div>
                             <span id='goods-price'>{"￥" + result.goodsPrice}</span>
                             <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
                         </div>
+                        <p id='goods-title'>{result.goodsTitle}</p>
+
+                        <p id='goods-content'>{result.goodsContent}</p>
+
+                        <p id='goods-content'>{result.ownerContactNum}</p>
+
                     </div>
                     {
                         result.tradeState == 3

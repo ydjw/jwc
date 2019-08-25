@@ -49,9 +49,16 @@
     color: black;
 }
 
+#goods-content {
+    margin: 15px;
+    font-size: 0.8rem;
+    color: #666666;
+}
+
 #goods-price {
     color: red;
     margin: 10px;
+    font-size: 1.3rem;
 }
 
 #goods-sold-out {

@@ -128,7 +128,6 @@ export default class Dynamic extends Component {
                         </div>
                         :
                         <div>
-                
                         </div>
                 }
 
