@@ -7,6 +7,7 @@ body, html {
 #dynamic-root {
   position: relative;
   height: 100%;
+
   #dynamic-card {
     margin-top: 30px;
     background-color: white;
@@ -73,14 +74,20 @@ body, html {
 
   #comment-item {
     padding: 10px;
-    
+    display: flex;
+    flex-direction: column;
 
-    #comment-index{
+    #comment-pic {
+      height: 80px;
+      width: 80px;
+      margin-top: 10px;
+    }
+
+    #comment-index {
       display: flex;
       flex-direction: column;
 
-  
-      
+
       #commenter-time {
         margin-top: 6px;
         font-size: 0.3rem;
@@ -89,7 +96,6 @@ body, html {
       }
     }
 
-   
 
     #comment-content {
       font-size: 1.0rem;
@@ -132,6 +138,12 @@ body, html {
       width: 85%;
       height: 80px;
       background-color: #e3cbf8;
+    }
+
+    #comment-pic {
+      height: 80px;
+      width: 80px;
+      margin-top: 10px;
     }
 
     #release-comment {

@@ -38,6 +38,11 @@ class LostAndFound extends Component {
         }
     }
 
+    showPictureDetail(url) {
+        if (window.zhuandian)
+            window.zhuandian.showPictureDetail(url)
+    }
+
     openNativeUserInfo(objectId) {
         if (window.zhuandian) {
             window.zhuandian.scanUserInfo(objectId);
@@ -77,7 +82,7 @@ class LostAndFound extends Component {
                 }
                 {
                     (result.goodsUrl || []).map((item, index) => {
-                        return <img className='goods-url' src={item}/>
+                        return <img className='goods-url' src={item}  onClick={() => this.showPictureDetail(item) }/>
                     })
                 }
 

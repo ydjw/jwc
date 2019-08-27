@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/community/dynamic/img/ic_add_picture.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/dynamic/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,42 +14,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-1216">
-                    <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-                    <folding>
-                      <element signature="e#0#39#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="zsjw" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6480506">
+    <splitter split-orientation="horizontal" split-proportion="0.5927292">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+                <state relative-caret-position="544">
+                  <caret line="144" column="109" selection-start-line="144" selection-start-column="109" selection-end-line="144" selection-end-column="109" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-904">
+                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="43" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#38#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="99" column="94" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="94" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -56,12 +60,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="408">
+                  <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
                 </state>
               </provider>
             </entry>
@@ -76,6 +80,10 @@
       <find>herf-app</find>
       <find>android.myapp.com</find>
       <find>getSearchByName</find>
+      <find>getCommentList</find>
+      <find>openNativeChatPage</find>
+      <find>openPictureSelector</find>
+      <find>showPictureDetail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,21 +102,21 @@
         <option value="$PROJECT_DIR$/src/pages/community/qypicture/style.css" />
         <option value="$PROJECT_DIR$/src/pages/community/qypicture/index.jsx" />
         <option value="$PROJECT_DIR$/src/util/constant.js" />
-        <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/common/appIntro/index.jsx" />
         <option value="$PROJECT_DIR$/src/util/util.js" />
         <option value="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/common/pyfa/style.less" />
         <option value="$PROJECT_DIR$/src/pages/common/pyfa/index.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/community/dynamic/style.less" />
+        <option value="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/community/dynamic/index.jsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-520" />
+    <option name="y" value="108" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -121,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,17 +140,6 @@
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,21 +147,6 @@
               <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="pyfa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +169,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="GoodsItemDetails" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -196,25 +188,10 @@
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="lostAndFound" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="qypicture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zsjw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zsjw-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +200,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\zsjw-react\src\pages\community\dynamic\img" />
       <recent name="E:\web\zsjw-react\public\image" />
     </key>
   </component>
@@ -344,7 +322,14 @@
       <workItem from="1566273427405" duration="597000" />
       <workItem from="1566278526898" duration="1582000" />
       <workItem from="1566467119379" duration="1129000" />
-      <workItem from="1566521097118" duration="3643000" />
+      <workItem from="1566521097118" duration="3733000" />
+      <workItem from="1566525269449" duration="151000" />
+      <workItem from="1566532686719" duration="2006000" />
+      <workItem from="1566795011970" duration="544000" />
+      <workItem from="1566817580555" duration="3448000" />
+      <workItem from="1566866824098" duration="922000" />
+      <workItem from="1566868086019" duration="2778000" />
+      <workItem from="1566872795166" duration="9598000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -374,12 +359,12 @@
       <option name="project" value="LOCAL" />
       <updated>1566279832332</updated>
     </task>
-    <task id="LOCAL-00005" summary="修改首页布局">
-      <created>1547518026925</created>
+    <task id="LOCAL-00005" summary="添加社区热议页面布局">
+      <created>1566525033863</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1547518026925</updated>
+      <updated>1566525033863</updated>
     </task>
     <task id="LOCAL-00006" summary="引入ant-mobile">
       <created>1547529537701</created>
@@ -682,11 +667,11 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17506000" />
+    <option name="totallyTimeSpent" value="37043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -698,7 +683,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4370933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -768,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改商品详情页标题" />
     <MESSAGE value="修改商品详情页上下滑动页面抖动问题" />
     <MESSAGE value="修改readme文件" />
     <MESSAGE value="添加h5点击图片唤起原生查看大图方法" />
@@ -793,7 +777,8 @@
     <MESSAGE value="完善分享页唤起app逻辑" />
     <MESSAGE value="抽取app下载链接为全局变量" />
     <MESSAGE value="添加培养方案查询入口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加培养方案查询入口" />
+    <MESSAGE value="添加社区热议页面布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加社区热议页面布局" />
   </component>
   <component name="WindowStateProjectService">
     <state width="426" height="417" key="Git.Branch.Popup" />
@@ -862,16 +847,6 @@
     <entry file="file://$PROJECT_DIR$/src/util/initBmob.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/qypicture/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2432">
@@ -923,30 +898,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/style.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="280">
+          <caret line="99" column="94" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="94" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        <state relative-caret-position="-904">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/style.less">
+    <entry file="file://$PROJECT_DIR$/src/pages/community/dynamic/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="544">
+          <caret line="144" column="109" selection-start-line="144" selection-start-column="109" selection-end-line="144" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
