@@ -146,12 +146,13 @@ export default class Dynamic extends Component {
                                             <div></div>
                                     }
 
+                                    <div id = 'item-line'></div>
                                 </div>
                             )
                         })
                         :
                         <div id='root'>
-                            <input id='comment-input'
+                            <textarea id='comment-input'
                                    type="text"
                             />
                             <img id='comment-pic'
