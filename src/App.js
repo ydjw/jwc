@@ -16,6 +16,23 @@ import Pyfa from './pages/common/pyfa'
 
 class App extends Component {
     render() {
+
+
+
+        {
+            var sum = 0;
+            for(var i = 1;i<100;i++){
+            sum+=i*(i+1)
+            }
+            console.log("sum的值="+sum);
+        }
+
+
+
+
+
+
+
         return (
             <Router>
                 <div>
