@@ -12,27 +12,11 @@ import SyllabusPage from './pages/education/syllabus'
 import AppVersion from './pages/common/appVersion'
 import AppIntro from './pages/common/appIntro'
 import Pyfa from './pages/common/pyfa'
+import GetPassword from './pages/common/getPassword'
 
 
 class App extends Component {
     render() {
-
-
-
-        {
-            var sum = 0;
-            for(var i = 1;i<100;i++){
-            sum+=i*(i+1)
-            }
-            console.log("sum的值="+sum);
-        }
-
-
-
-
-
-
-
         return (
             <Router>
                 <div>
@@ -48,6 +32,7 @@ class App extends Component {
                     <Route path="/common/appVersion" component={AppVersion}/>
                     <Route path="/common/appIntro" component={AppIntro}/>
                     <Route path="/common/pyfa" component={Pyfa}/>
+                    <Route path="/common/getPassword" component={GetPassword}/>
                 </div>
             </Router>
         );
