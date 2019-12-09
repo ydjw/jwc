@@ -1,7 +1,7 @@
 {
-  "main.css": "/jwc/static/css/main.c784f8d8.chunk.css",
-  "main.js": "/jwc/static/js/main.0f124423.chunk.js",
-  "main.js.map": "/jwc/static/js/main.0f124423.chunk.js.map",
+  "main.css": "/jwc/static/css/main.1d1d0485.chunk.css",
+  "main.js": "/jwc/static/js/main.b83733c2.chunk.js",
+  "main.js.map": "/jwc/static/js/main.b83733c2.chunk.js.map",
   "static/css/1.79a640f7.chunk.css": "/jwc/static/css/1.79a640f7.chunk.css",
   "static/js/1.f69ce814.chunk.js": "/jwc/static/js/1.f69ce814.chunk.js",
   "static/js/1.f69ce814.chunk.js.map": "/jwc/static/js/1.f69ce814.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/app_logo.png": "/jwc/static/media/app_logo.1f2b2513.png",
   "static/media/ic_goods_sold_out.png": "/jwc/static/media/ic_goods_sold_out.5c18bea6.png",
   "static/media/heart_share_pen.png": "/jwc/static/media/heart_share_pen.4b17cb5c.png",
-  "static/css/main.c784f8d8.chunk.css.map": "/jwc/static/css/main.c784f8d8.chunk.css.map",
+  "static/css/main.1d1d0485.chunk.css.map": "/jwc/static/css/main.1d1d0485.chunk.css.map",
   "static/css/1.79a640f7.chunk.css.map": "/jwc/static/css/1.79a640f7.chunk.css.map",
   "index.html": "/jwc/index.html",
-  "precache-manifest.ec351cbf4a4beb43ac69759b825fa035.js": "/jwc/precache-manifest.ec351cbf4a4beb43ac69759b825fa035.js",
+  "precache-manifest.b8a9e649e7294b8bc99d50287e524813.js": "/jwc/precache-manifest.b8a9e649e7294b8bc99d50287e524813.js",
   "service-worker.js": "/jwc/service-worker.js"
 }
