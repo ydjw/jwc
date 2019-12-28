@@ -21,7 +21,7 @@ export default class LoginPage extends Component {
     async doLogin() {
         var username = document.getElementById('input-username').value;
         var password = document.getElementById('input-password').value;
-        if (password.length > 6 && username.length > 8) {
+        if (password.length > 5 && username.length > 8) {
             Toast.loading('登陆中...', 0);
             let data = {
                 'method': 'authUser',
