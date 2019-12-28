@@ -11,10 +11,10 @@ export default class LoginPage extends Component {
     }
 
     componentDidMount() {
-        document.getElementById('login-root').style.height = window.screen.height + 'px'
-        window.onresize = function () {
-            document.getElementById('login-root').style.height = window.screen.height + 'px'
-        }
+        // document.getElementById('login-root').style.height = window.screen.height + 'px'
+        // window.onresize = function () {
+        //     document.getElementById('login-root').style.height = window.screen.height + 'px'
+        // }
 
     }
 
@@ -59,7 +59,7 @@ export default class LoginPage extends Component {
                         <span id='btn-login' onClick={this.doLogin}>戳我登陆</span>
                         <span id='forget-password'>忘记密码？</span>
                     </div>
-                    <span id='team-info'>掌上曲园团队出品</span>
+                    {/*<span id='team-info'>掌上曲园团队出品</span>*/}
                 </div>
             </div>
         )

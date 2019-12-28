@@ -4,7 +4,7 @@
 
   #top-view {
     width: 100%;
-    flex: 4.5;
+    height: 300px;
     background-color: #009688;
     flex-direction: column;
     display: flex;
@@ -24,14 +24,13 @@
     #app-info {
       margin-top: 40px;
       color: white;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
   }
 
   #bottom-view {
     width: 100%;
     flex: 5.5;
-    background-color: #f6f6f6;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -39,8 +38,7 @@
     #input-username {
       margin-top: 30px;
       width: 85%;
-      height: 30px;
-      background-color: #f6f6f6;
+      height: 40px;
       border: 0px;
       outline: none;
       color: #009688;
@@ -50,8 +48,7 @@
     #input-password {
       margin-top: 20px;
       width: 85%;
-      height: 30px;
-      background-color: #f6f6f6;
+      height: 40px;
       border: 0px;
       outline: none;
       color: #009688;
@@ -60,8 +57,8 @@
 
 
     #login-container {
-      width: 85%;
-      margin-top: 10px;
+      width: 88%;
+      margin-top: 20px;
       display: flex;
       height: 100px;
       flex-direction: column;
@@ -69,23 +66,24 @@
 
       #btn-login {
         margin-top: 20px;
-        height: 45px;
+        height: 50px;
+        border-radius: 10px;
         width: 100%;
         color: white;
         text-align: center;
-        line-height: 45px;
-        font-size: 1.0rem;
+        line-height: 50px;
+        font-size: 1.1rem;
         background-color: #009688;
       }
 
       #forget-password {
         position: absolute;
-        bottom: 10px;
-        margin-top: 10px;
+        bottom: 0px;
+        margin-top: 5px;
         right: 0px;
         color: #009688;
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
       }
     }
 
@@ -102,5 +100,5 @@
 
 input::-webkit-input-placeholder {
   color: #009688;
-  font-size: 13px;
+  font-size: 0.9rem;
 }
