@@ -14,6 +14,7 @@ import AppIntro from './pages/common/appIntro'
 import Pyfa from './pages/common/pyfa'
 import GetPassword from './pages/common/getPassword'
 import EnglishStroy from './pages/education/english'
+import ScoreQuery from "./pages/education/scoreQuery";
 
 
 class App extends Component {
@@ -22,7 +23,10 @@ class App extends Component {
             <Router>
                 <div>
                     <Route exact path="/" component={LoginPage}/>
+                    {/*//教务相关*/}
                     <Route path="/personManage" component={PersonManage}/>
+                    <Route path="/scoreQuery" component={ScoreQuery}/>
+                    {/*//社区相关*/}
                     <Route path="/community/goodsItemDetail" component={GoodsItemDetail}/>
                     <Route path="/community/qyPicture" component={QyPicture}/>
                     <Route path="/community/lostAndFound" component={LostAndFound}/>

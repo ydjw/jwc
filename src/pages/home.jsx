@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './css/home.css';
 import HomeMenu from '../components/HomeMenu.jsx'
 import personManageImg from "../img/ic_people_black_48dp.png"
-import xuankeImg from "../img/social.png"
+import queryScore from "../img/social.png"
 import jiaoxueImg from "../img/ic_domain_black_48dp.png"
 import kaowuImg from "../img/ic_event_note_black_48dp.png"
 import zongheImg from "../img/ic_quick_contacts_dialer_black_48dp.png"
 import jiaoxuepingguImg from "../img/ic_local_library_black_48dp.png"
-import { Toast } from 'antd-mobile';
-import { Link } from 'react-router-dom'
+import {Toast} from 'antd-mobile';
+import {Link} from 'react-router-dom'
 
 class Home extends Component {
     render() {
@@ -20,8 +20,10 @@ class Home extends Component {
                         <HomeMenu menuTitle="个人管理"
                                   menuImg={personManageImg}></HomeMenu>
                     </Link>
-                    <HomeMenu menuTitle="选课管理"
-                              menuImg={xuankeImg}></HomeMenu>
+                    <Link to="/scoreQuery">
+                        <HomeMenu menuTitle="成绩查询"
+                                  menuImg={queryScore}></HomeMenu>
+                    </Link>
                 </div>
                 <div id="menu-item">
                     <HomeMenu menuTitle="教学资源"

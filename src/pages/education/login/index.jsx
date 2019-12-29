@@ -32,6 +32,7 @@ export default class LoginPage extends Component {
             if (res.data.success) {
                 Toast.hide()
                 window.util.setStorage('token', res.data.token)
+                window.util.setStorage('useraccount', res.data.user.useraccount)
                 Toast.info("欢迎你，" + res.data.user.username, 3)
                 this.props.history.push('/home');
 
