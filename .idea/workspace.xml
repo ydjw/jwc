@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="修改登录页样式">
-      <change afterPath="$PROJECT_DIR$/public/image/ic_no_data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/scoreQuery/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/scoreQuery/style.less" afterDir="false" />
+    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +13,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="zsjw" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Toast</find>
-      <find>herf-app</find>
-      <find>android.myapp.com</find>
-      <find>getSearchByName</find>
-      <find>getCommentList</find>
-      <find>openNativeChatPage</find>
-      <find>openPictureSelector</find>
-      <find>showPictureDetail</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -193,7 +177,7 @@
       <workItem from="1577521569435" duration="2867000" />
       <workItem from="1577586015050" duration="2375000" />
       <workItem from="1577594527063" duration="10000" />
-      <workItem from="1577610025267" duration="5632000" />
+      <workItem from="1577610025267" duration="7773000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -244,12 +228,12 @@
       <option name="project" value="LOCAL" />
       <updated>1577519952139</updated>
     </task>
-    <task id="LOCAL-00008" summary="添加路由">
-      <created>1547800965702</created>
+    <task id="LOCAL-00008" summary="成绩查询页面">
+      <created>1577620920039</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1547800965702</updated>
+      <updated>1577620920039</updated>
     </task>
     <task id="LOCAL-00009" summary="添加个人管理路由路由">
       <created>1547807075671</created>
@@ -531,7 +515,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加h5点击图片唤起原生查看大图方法" />
     <MESSAGE value="添加登陆页面" />
     <MESSAGE value="动态监听窗体大小变化，自适应屏幕UI" />
     <MESSAGE value="引入antd-mobile" />
@@ -600,18 +583,19 @@
     <MESSAGE value="添加社区热议页面布局" />
     <MESSAGE value="跳蚤市场图片添加预览大图功能，动态热议话题新增添加图片功能" />
     <MESSAGE value="修改登录页样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改登录页样式" />
+    <MESSAGE value="成绩查询页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="成绩查询页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577500271624">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500271624" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1577527522508">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1699" y="24" key="CommitChangelistDialog2" timestamp="1577620919045">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527522508" />
-    <state x="1699" y="24" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577526410508" />
+    <state x="1699" y="24" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620919045" />
     <state x="1612" y="121" key="DiffContextDialog" timestamp="1577526409668">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
@@ -619,22 +603,22 @@
     <state width="426" height="417" key="Git.Branch.Popup" timestamp="1577500261376" />
     <state width="426" height="417" key="Git.Branch.Popup/1920.1080/1920.1080" timestamp="1577500261377" />
     <state width="426" height="417" key="Git.Branch.Popup@1920.1080" timestamp="1577500261377" />
-    <state width="1579" height="132" key="GridCell.Tab.0.bottom" timestamp="1577610374657">
+    <state width="1579" height="316" key="GridCell.Tab.0.bottom" timestamp="1577621540155">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="132" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577610374657" />
-    <state width="1579" height="132" key="GridCell.Tab.0.center" timestamp="1577610374656">
+    <state width="1579" height="316" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577621540155" />
+    <state width="1579" height="316" key="GridCell.Tab.0.center" timestamp="1577621540155">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="132" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577610374656" />
-    <state width="1579" height="132" key="GridCell.Tab.0.left" timestamp="1577610374656">
+    <state width="1579" height="316" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577621540155" />
+    <state width="1579" height="316" key="GridCell.Tab.0.left" timestamp="1577621540155">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="132" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577610374656" />
-    <state width="1579" height="132" key="GridCell.Tab.0.right" timestamp="1577610374657">
+    <state width="1579" height="316" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577621540155" />
+    <state width="1579" height="316" key="GridCell.Tab.0.right" timestamp="1577621540155">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="132" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577610374657" />
+    <state width="1579" height="316" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577621540155" />
     <state x="2033" y="143" key="RollbackChangesDialog" timestamp="1577526417566">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
@@ -643,11 +627,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500361342" />
-    <state x="335" y="141" key="Vcs.Push.Dialog.v2" timestamp="1577527530248">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1577620922504">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="335" y="141" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527530248" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577519975958" />
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620922504" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577527429794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
