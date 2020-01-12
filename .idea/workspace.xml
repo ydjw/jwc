@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="" />
+    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +178,7 @@
       <workItem from="1577586015050" duration="2375000" />
       <workItem from="1577594527063" duration="10000" />
       <workItem from="1577610025267" duration="8492000" />
-      <workItem from="1578802495553" duration="3824000" />
+      <workItem from="1578802495553" duration="4203000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -232,12 +236,12 @@
       <option name="project" value="LOCAL" />
       <updated>1577620920039</updated>
     </task>
-    <task id="LOCAL-00009" summary="添加个人管理路由路由">
-      <created>1547807075671</created>
+    <task id="LOCAL-00009" summary="成绩查询页面">
+      <created>1578811070211</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1547807075671</updated>
+      <updated>1578811070211</updated>
     </task>
     <task id="LOCAL-00010" summary="添加社区商品详情页">
       <created>1548208794437</created>
@@ -512,7 +516,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,10 +592,10 @@
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500271624" />
-    <state x="1699" y="24" key="CommitChangelistDialog2" timestamp="1577620919045">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1578811068379">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527522508" />
+    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811068379" />
     <state x="1699" y="24" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620919045" />
     <state x="1612" y="121" key="DiffContextDialog" timestamp="1577526409668">
       <screen x="1366" y="0" width="1600" height="860" />
@@ -629,10 +633,10 @@
     </state>
     <state x="335" y="141" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527530248" />
     <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620922504" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577527429794">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578811073862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527429794" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811073862" />
     <state x="0" y="0" width="1007" height="815" key="dock-window-1" timestamp="1577619968605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
