@@ -55,9 +55,15 @@ class GoodsItemDetail extends Component {
 
     }
 
-    showPictureDetail(url) {
-        if (window.zhuandian)
-            window.zhuandian.showPictureDetail(url)
+    showPictureDetail(url, imageArray, index) {
+        if (window.zhuandian) {
+            try {
+                window.zhuandian.showMultiPictureDetail(imageArray, index)
+            } catch (e) {
+                window.zhuandian.showPictureDetail(url)
+            }
+        }
+
     }
 
     render() {
@@ -75,8 +81,8 @@ class GoodsItemDetail extends Component {
                 </div>
                 <div id='goods-desc'>
                     <div>
-                       
-                       
+
+
                         <div>
                             <span id='goods-price'>{"￥" + result.goodsPrice}</span>
                             <span>{result.tradeType == 1 ? "可议价" : "一口价"}</span>
@@ -97,7 +103,8 @@ class GoodsItemDetail extends Component {
                 </div>
                 {
                     (result && result.goodsUrl || []).map((item, index) => {
-                        return <img id='goods-img' onClick={() => this.showPictureDetail(item)} src={item} key={index}/>
+                        return <img id='goods-img' onClick={() => this.showPictureDetail(item, result.goodsUrl, index)}
+                                    src={item} key={index}/>
                     })
                 }
 

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +179,8 @@
       <workItem from="1577594527063" duration="10000" />
       <workItem from="1577610025267" duration="8492000" />
       <workItem from="1578802495553" duration="4203000" />
+      <workItem from="1579329802800" duration="28000" />
+      <workItem from="1579329896240" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -637,13 +639,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811073862" />
-    <state x="0" y="0" width="1007" height="815" key="dock-window-1" timestamp="1577619968605">
+    <state x="0" y="0" width="1382" height="672" maximized="true" key="dock-window-1" timestamp="1579332044841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1007" height="815" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577619968605" />
-    <state x="370" y="4" width="626" height="720" key="find.popup" timestamp="1578809134835">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="0" y="0" width="1382" height="672" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332044841" />
+    <state x="1799" y="5" width="734" height="851" key="find.popup" timestamp="1579332042912">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578809134835" />
+    <state x="1799" y="5" width="734" height="851" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332042912" />
   </component>
 </project>
