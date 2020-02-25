@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/GoodsItemDetails/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/lostAndFound/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/education/english/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/english/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/education/english/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/english/style.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,9 @@
       <workItem from="1577610025267" duration="8492000" />
       <workItem from="1578802495553" duration="4203000" />
       <workItem from="1579329802800" duration="28000" />
-      <workItem from="1579329896240" duration="2135000" />
+      <workItem from="1579329896240" duration="2703000" />
+      <workItem from="1582366175904" duration="801000" />
+      <workItem from="1582590571131" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -245,12 +247,12 @@
       <option name="project" value="LOCAL" />
       <updated>1578811070211</updated>
     </task>
-    <task id="LOCAL-00010" summary="添加社区商品详情页">
-      <created>1548208794437</created>
+    <task id="LOCAL-00010" summary="跳蚤市场、失物招领页预览大图添加左右翻页功能">
+      <created>1579332110938</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1548208794438</updated>
+      <updated>1579332110938</updated>
     </task>
     <task id="LOCAL-00011" summary="完成跳蚤市场商品详情页">
       <created>1551862305498</created>
@@ -518,7 +520,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加登陆页面" />
     <MESSAGE value="动态监听窗体大小变化，自适应屏幕UI" />
     <MESSAGE value="引入antd-mobile" />
     <MESSAGE value="添加登陆跳转逻辑" />
@@ -587,18 +588,19 @@
     <MESSAGE value="跳蚤市场图片添加预览大图功能，动态热议话题新增添加图片功能" />
     <MESSAGE value="修改登录页样式" />
     <MESSAGE value="成绩查询页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="成绩查询页面" />
+    <MESSAGE value="跳蚤市场、失物招领页预览大图添加左右翻页功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="跳蚤市场、失物招领页预览大图添加左右翻页功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577500271624">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500271624" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1578811068379">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1699" y="24" key="CommitChangelistDialog2" timestamp="1579332109360">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811068379" />
-    <state x="1699" y="24" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620919045" />
+    <state x="1699" y="24" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332109360" />
     <state x="1612" y="121" key="DiffContextDialog" timestamp="1577526409668">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
@@ -630,23 +632,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500361342" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1577620922504">
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579332123199">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="335" y="141" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527530248" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577620922504" />
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332123199" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578811073862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811073862" />
-    <state x="0" y="0" width="1382" height="672" maximized="true" key="dock-window-1" timestamp="1579332044841">
+    <state x="180" y="0" width="616" height="815" maximized="true" key="dock-window-1" timestamp="1582592454177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1382" height="672" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332044841" />
+    <state x="180" y="0" width="616" height="815" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1582592454177" />
     <state x="1799" y="5" width="734" height="851" key="find.popup" timestamp="1579332042912">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578809134835" />
     <state x="1799" y="5" width="734" height="851" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332042912" />
+    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1582593722692">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1582593722692" />
   </component>
 </project>
