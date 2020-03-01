@@ -7,7 +7,9 @@ export default class EnglishStroy extends Component {
         super(props);
         this.state = {
             englishRedingEntity: {},
-            timeStr:""
+            englishContentArray: [],
+            chineseContentArray: [],
+            timeStr: ""
         }
     }
 
@@ -18,6 +20,8 @@ export default class EnglishStroy extends Component {
             this.formatTimeStr(res.createdAt)
             this.setState({
                 englishRedingEntity: res,
+                englishContentArray: res.englishContent.split('\\'),
+                chineseContentArray: res.chieseContent.split('\\')
             })
         }).catch(err => {
             console.log(err.toString());
@@ -77,12 +81,14 @@ export default class EnglishStroy extends Component {
         }
 
         this.setState({
-            timeStr:monthStr + timeArray[2] + " · " + timeArray[0]
+            timeStr: monthStr + timeArray[2] + " · " + timeArray[0]
         })
     }
 
     render() {
-        let {englishRedingEntity,timeStr} = this.state;
+        let {englishRedingEntity, timeStr, chineseContentArray, englishContentArray} = this.state;
+        console.log(englishContentArray, 222);
+
         return (
             <div id='english-root'>
                <span id='time'>
@@ -99,11 +105,19 @@ export default class EnglishStroy extends Component {
                      onClick={() => this.showPictureDetail(englishRedingEntity.imgUrl)}/>
 
                 <span id='english-content'>
-               {englishRedingEntity.englishContent}
+               {
+                   (englishContentArray).map((item, index) => {
+                       return <p>{item}</p>
+                   })
+               }
                </span>
 
                 <span id='chinese-content'>
-                {englishRedingEntity.chieseContent}
+                {
+                    (chineseContentArray || []).map((item, index) => {
+                        return <p>{item}</p>
+                    })
+                }
                </span>
             </div>
         )
