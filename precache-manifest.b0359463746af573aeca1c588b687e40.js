@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a00f54ef19e3adb8d197",
-    "url": "/jwc/static/css/main.30889359.chunk.css"
+    "revision": "52f2bbee2bb733b558cd",
+    "url": "/jwc/static/css/main.7859086d.chunk.css"
   },
   {
-    "revision": "a00f54ef19e3adb8d197",
-    "url": "/jwc/static/js/main.a00f54ef.chunk.js"
+    "revision": "52f2bbee2bb733b558cd",
+    "url": "/jwc/static/js/main.52f2bbee.chunk.js"
   },
   {
     "revision": "81d95cb850cfa9058691",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/jwc/static/media/heart_share_pen.4b17cb5c.png"
   },
   {
-    "revision": "94ecbecf225cd07c027160bb5ca8194f",
+    "revision": "075c7f155747e601b24f0bedd42c73ae",
     "url": "/jwc/index.html"
   }
 ];
