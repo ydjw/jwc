@@ -15,6 +15,7 @@ import Pyfa from './pages/common/pyfa'
 import GetPassword from './pages/common/getPassword'
 import EnglishStroy from './pages/education/english'
 import ScoreQuery from "./pages/education/scoreQuery";
+import RentHouse from "./pages/community/rentHouse";
 
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
                     <Route path="/common/pyfa" component={Pyfa}/>
                     <Route path="/common/getPassword" component={GetPassword}/>
                     <Route path="/education/englishStroy" component={EnglishStroy}/>
+                    <Route path="/community/renthouse" component={RentHouse}  />
                 </div>
             </Router>
         );
