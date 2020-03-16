@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="1.修改英语每日阅读UI样式&#10;2.对接英语阅读数据">
+    <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education/english/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/english/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education/english/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/english/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/rentHouse/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/rentHouse/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/community/rentHouse/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/rentHouse/style.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,13 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="zsjw" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -183,7 +190,14 @@
       <workItem from="1579329896240" duration="2703000" />
       <workItem from="1582366175904" duration="801000" />
       <workItem from="1582590571131" duration="5271000" />
-      <workItem from="1583032474071" duration="4272000" />
+      <workItem from="1583032474071" duration="4967000" />
+      <workItem from="1583216651642" duration="4000" />
+      <workItem from="1583980478142" duration="537000" />
+      <workItem from="1584173865944" duration="111000" />
+      <workItem from="1584178094389" duration="30000" />
+      <workItem from="1584178759793" duration="2473000" />
+      <workItem from="1584258363686" duration="2247000" />
+      <workItem from="1584361139559" duration="5238000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -262,19 +276,19 @@
       <option name="project" value="LOCAL" />
       <updated>1582595974917</updated>
     </task>
-    <task id="LOCAL-00012" summary="修改项目title">
-      <created>1551867176024</created>
+    <task id="LOCAL-00012" summary="修改英语每日阅读内容换行显示">
+      <created>1583037566918</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1551867176024</updated>
+      <updated>1583037566918</updated>
     </task>
-    <task id="LOCAL-00013" summary="修改商品详情页底部运营条">
-      <created>1553325851654</created>
+    <task id="LOCAL-00013" summary="出租房子页面搭建">
+      <created>1584181173215</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1553325851654</updated>
+      <updated>1584181173215</updated>
     </task>
     <task id="LOCAL-00014" summary="添加一闪图片分享功能">
       <created>1554280088734</created>
@@ -521,7 +535,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,8 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="引入antd-mobile" />
-    <MESSAGE value="添加登陆跳转逻辑" />
     <MESSAGE value="封装网络层框架，解决跨域问题" />
     <MESSAGE value="完成登陆逻辑" />
     <MESSAGE value="get请求添加公共token处理" />
@@ -590,18 +602,20 @@
     <MESSAGE value="成绩查询页面" />
     <MESSAGE value="跳蚤市场、失物招领页预览大图添加左右翻页功能" />
     <MESSAGE value="1.修改英语每日阅读UI样式&#10;2.对接英语阅读数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.修改英语每日阅读UI样式&#10;2.对接英语阅读数据" />
+    <MESSAGE value="修改英语每日阅读内容换行显示" />
+    <MESSAGE value="出租房子页面搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="出租房子页面搭建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577500271624">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500271624" />
-    <state x="1699" y="21" key="CommitChangelistDialog2" timestamp="1582596004135">
+    <state x="1699" y="21" key="CommitChangelistDialog2" timestamp="1584181172136">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811068379" />
-    <state x="1699" y="21" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1582596004135" />
+    <state x="1699" y="21" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584181172136" />
     <state x="1612" y="121" key="DiffContextDialog" timestamp="1577526409668">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
@@ -633,24 +647,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500361342" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1582595984763">
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1584181175315">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="335" y="141" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527530248" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1582595984763" />
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584181175315" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578811073862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811073862" />
-    <state x="245" y="0" width="938" height="815" key="dock-window-1" timestamp="1583037220550">
+    <state x="245" y="0" width="938" height="815" maximized="true" key="dock-window-1" timestamp="1583037629513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="245" y="0" width="938" height="815" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1583037220550" />
-    <state x="1799" y="5" width="734" height="851" key="find.popup" timestamp="1579332042912">
+    <state x="245" y="0" width="938" height="815" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1583037629513" />
+    <state x="1799" y="5" width="734" height="851" key="find.popup" timestamp="1584365538021">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578809134835" />
-    <state x="1799" y="5" width="734" height="851" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1579332042912" />
+    <state x="1799" y="5" width="734" height="851" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584365538021" />
     <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1582593722692">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
