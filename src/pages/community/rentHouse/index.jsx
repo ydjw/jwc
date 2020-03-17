@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './style.less'
+import {Link} from 'react-router-dom'
 
 export default class RentHouse extends Component {
 
@@ -30,7 +31,7 @@ export default class RentHouse extends Component {
             "https://ns-strategy.cdn.bcebos.com/ns-strategy/upload/fc_big_pic/part-00464-2238.jpg",
             "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1061560214,3153100919&fm=26&gp=0.jpg"
         ];
-        setInterval( ()=> {
+        setInterval(() => {
             this.setState({
                 bannerUrl: bannerUrlArray[i++ % 3],
             })
@@ -48,7 +49,7 @@ export default class RentHouse extends Component {
                 {
                     (result || []).map((item, index) => {
                         return (
-                            <div id="rent-house-item">
+                            <div id="rent-house-item" onClick={() => this.goHouseDetailPage(result[index].objectId)}>
                                 <img id="house-item-img" src={result[index].houseImg[0]}/>
                                 <div id="house-info">
                                     <span>{result[index].houseTitle}</span>
@@ -64,4 +65,7 @@ export default class RentHouse extends Component {
         )
     }
 
+    goHouseDetailPage(objectId) {
+        this.props.history.push("/community/houseDetail?objectId=" + objectId)
+    }
 }
