@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c676f4e2-78ea-4e0c-b96b-1015dca83a8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/community/rentHouse/houseDetail/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/community/rentHouse/houseDetail/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/community/rentHouse/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/community/rentHouse/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +196,7 @@
       <workItem from="1584178759793" duration="2473000" />
       <workItem from="1584258363686" duration="2247000" />
       <workItem from="1584361139559" duration="5323000" />
-      <workItem from="1584437948168" duration="6599000" />
+      <workItem from="1584437948168" duration="6835000" />
     </task>
     <task id="LOCAL-00001" summary="修改app介绍页">
       <created>1565936778491</created>
@@ -303,12 +296,12 @@
       <option name="project" value="LOCAL" />
       <updated>1584366466533</updated>
     </task>
-    <task id="LOCAL-00015" summary="抽取Bmob初始化为全局方法">
-      <created>1558608679799</created>
+    <task id="LOCAL-00015" summary="添加房子详情页">
+      <created>1584447658389</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1558608679800</updated>
+      <updated>1584447658389</updated>
     </task>
     <task id="LOCAL-00016" summary="定义失物招领、动态路由，搭建页面框架">
       <created>1558609559167</created>
@@ -541,7 +534,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565931335913</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成登陆逻辑" />
     <MESSAGE value="get请求添加公共token处理" />
     <MESSAGE value="封装项目通用get请求方法" />
     <MESSAGE value="失物招领详情页绘制" />
@@ -610,22 +602,23 @@
     <MESSAGE value="修改英语每日阅读内容换行显示" />
     <MESSAGE value="出租房子页面搭建" />
     <MESSAGE value="完善租房子页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善租房子页面" />
+    <MESSAGE value="添加房子详情页" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加房子详情页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577500271624">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1620" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500271624" />
-    <state x="1699" y="21" key="CommitChangelistDialog2" timestamp="1584366465434">
+    <state x="1699" y="21" key="CommitChangelistDialog2" timestamp="1584447657466">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578811068379" />
-    <state x="1699" y="21" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584366465434" />
-    <state x="1612" y="121" key="DiffContextDialog" timestamp="1577526409668">
+    <state x="1699" y="21" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584447657466" />
+    <state x="1308" y="121" width="1620" height="610" maximized="true" key="DiffContextDialog" timestamp="1584448052338">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state x="1612" y="121" key="DiffContextDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577526409668" />
+    <state x="1308" y="121" width="1620" height="610" maximized="true" key="DiffContextDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584448052338" />
     <state width="426" height="417" key="Git.Branch.Popup" timestamp="1577500261376" />
     <state width="426" height="417" key="Git.Branch.Popup/1920.1080/1920.1080" timestamp="1577500261377" />
     <state width="426" height="417" key="Git.Branch.Popup@1920.1080" timestamp="1577500261377" />
@@ -653,11 +646,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1577500361342" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1584366472245">
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2" timestamp="1584447660818">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="335" y="141" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1577527530248" />
-    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584366472245" />
+    <state x="1758" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584447660818" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578811073862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -671,9 +664,9 @@
     </state>
     <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1578809134835" />
     <state x="1799" y="5" width="734" height="851" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584439028588" />
-    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1582593722692">
+    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584447973480">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1582593722692" />
+    <state x="1829" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584447973480" />
   </component>
 </project>
