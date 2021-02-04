@@ -17,6 +17,7 @@ import EnglishStroy from './pages/education/english'
 import ScoreQuery from "./pages/education/scoreQuery";
 import RentHouse from "./pages/community/rentHouse";
 import HouseDetailPage from "./pages/community/rentHouse/houseDetail";
+import QQGroup from "./pages/common/qqGroup/qqGroup"
 
 
 class App extends Component {
@@ -43,6 +44,8 @@ class App extends Component {
                     <Route path="/education/englishStroy" component={EnglishStroy}/>
                     <Route path="/community/renthouse" component={RentHouse}  />
                     <Route path="/community/houseDetail" component={HouseDetailPage}  />
+
+                    <Route path="/public/QQGroup" component={QQGroup}  />
                 </div>
             </Router>
         );
