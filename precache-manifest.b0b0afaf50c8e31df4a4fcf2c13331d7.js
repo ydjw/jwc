@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "042761a1fcf7d12210e6",
-    "url": "/jwc/static/css/main.307730fc.chunk.css"
+    "revision": "27f21ea486a4f0aaf9a1",
+    "url": "/jwc/static/css/main.d3bcc486.chunk.css"
   },
   {
-    "revision": "042761a1fcf7d12210e6",
-    "url": "/jwc/static/js/main.042761a1.chunk.js"
+    "revision": "27f21ea486a4f0aaf9a1",
+    "url": "/jwc/static/js/main.27f21ea4.chunk.js"
   },
   {
-    "revision": "a4217f0713000d6c415a",
-    "url": "/jwc/static/css/1.cc65605f.chunk.css"
+    "revision": "c512cf1e5b96d2a16ee7",
+    "url": "/jwc/static/css/1.7246fa3c.chunk.css"
   },
   {
-    "revision": "a4217f0713000d6c415a",
-    "url": "/jwc/static/js/1.a4217f07.chunk.js"
+    "revision": "c512cf1e5b96d2a16ee7",
+    "url": "/jwc/static/js/1.c512cf1e.chunk.js"
   },
   {
     "revision": "cfcb056202f77854882a",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/jwc/static/media/heart_share_pen.4b17cb5c.png"
   },
   {
-    "revision": "d7c1747a82ec994b53e1a2730e86250c",
+    "revision": "40356ecad6439d2b70e0120e8d7edee7",
     "url": "/jwc/index.html"
   }
 ];
